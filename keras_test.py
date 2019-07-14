@@ -48,10 +48,12 @@ def create_model():
 
 
 
-model=KerasRegressor(build_fn=create_model,verbose=0)
-from sklearn.model_selection import GridSearchCV
-grid_dict=[{'epochs':[10,50]}]
-nn_reg=GridSearchCV(estimator=model,param_grid=grid_dict,scoring='r2',n_jobs=-1,cv=5)
+model=KerasRegressor(build_fn=create_model,epochs=10,batch_size=5,verbose=0)
 # BostonHousing データ
-nn_reg.fit(X_train,y_train)
+model.fit(X_train,y_train)
+y_pred=model.predict(X_test)
+print(model.score(X_test,y_test))
+print(y_test.values)
+from sklearn.metrics import accuracy_score
+print(accuracy_score(y_test.values,y_pred))
 
