@@ -1,6 +1,7 @@
 # kaggle
 ## 機械学習で役立つTips
-LightGBMと他のブースティングのまとめ（PyDataでのスライド）  
+### LightGBMと他のブースティングのまとめ（PyDataでのスライド）  
+https://alphaimpact.jp/downloads/pydata20190927.pdf
 XGBoostと比べ、並列化による高速化、大規模データセットへの対応が可能となった。  
 ヒストグラムによる学習→連続値をbinにまとめることで計算量を減らしている。  
 深さベースではなく、葉ベースでの学習  
@@ -17,7 +18,7 @@ min_split_gain:葉を分割する条件として設定するロス改善度の�
 reg_alpha:L1正則化。過学習していそうなら調整する。  
 reg_lambda:L2正則化。過学習していそうなら調整する。。
 
+learning_rateは0,01の固定でよい。チューニングする必要はない
 
-learning_rateは0,01の固定でよい。チューニング
 
 
