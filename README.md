@@ -27,6 +27,13 @@ objective: 回帰、二値分類、他クラス分類化を指定する。
 の三種類。もっとも重要度を表現しているのはゲイン。デフォルトだと頻度でだされるので、total_geinを指定する    
 https://sites.google.com/view/lauraepp/parameters
 
+## NN参考
+テーブルデータでのNNモデル
+https://github.com/ChenglongChen/Kaggle_HomeDepot  
+https://github.com/dkivaranovic/kaggledays-recruit  
+https://github.com/puyokw/kaggle_Otto  
+
+
 ## 不均衡データの処理
 ・アンダーサンプリング：多いデータを減らす。データの選択は重複選択なしがよい。事前にデータをクラスタリングし、クラスごとにサンプリングを行う方法がある。アンダーサンプリングは情報量を減らしてしまうため、なるべくオーバーサンプリングが好まれる。
 ・オーバーサンプリング：少ないデータを増やす。代表的な手法はSMOTE。データ間の直線間からサンプリングする手法ため次元数が大きくなる場合は偏りが大きくなる。その場合はバギング（多数のモデルをアンサンブルすること）することで解消できる。
