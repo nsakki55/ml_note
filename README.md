@@ -159,6 +159,6 @@ https://github.com/ChenglongChen/Kaggle_HomeDepot
 ## 知識
 モデルが複雑→平均的な予測値と真値との乖離（バイアス）が小さくなる一方、予測の不安定性（バリアンス）は大きくなる。  
 モデルが単純→バイアスが大きく、バリアンスが小さい  
-http://ibisforest.org/index.php?%E3%83%90%E3%82%A4%E3%82%A2%E3%82%B9-%E3%83%90%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%B9 
+http://ibisforest.org/index.php?%E3%83%90%E3%82%A4%E3%82%A2%E3%82%B9-%E3%83%90%E3%83%AA%E3%82%A2%E3%83%B3%E3%82%B9  
 bestfitting氏の言葉  
 http://blog.kaggle.com/2018/05/07/profiling-top-kagglers-bestfitting-currently-1-in-the-world/
