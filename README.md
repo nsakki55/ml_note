@@ -23,6 +23,12 @@ reg_lambda:L2正則化。過学習していそうなら調整する。。
 ・alpha,lambda:決定木の葉のウェイトの正則化によりモデルの複雑さを調整できる。  
 ・subsample,colsample_bytree:ランダム性を加えることで過学習を抑えることができる。  
 
+### 効率的な探索の流れ
+１；max_depthの最適化、５〜８ぐらいを試す。  
+2:col_sample_levelの最適化0.5〜０．１を０．１刻みで試す。  
+3:min_child_weightの最適化。１、２、４、８、１６、３２と２倍ごとに試す。  
+4:lambda,alphaの最適化。  
+early_stoppin_roundは10/eta程度
 
 num_round:作成する決定木の本数。１０００などの十分大きな値とし、early stoppingで自動的に決めるのがよい  
 learning_rate:0,01の固定でよい。チューニングする必要はない。値が小さいと学習の時間がかかるので、初めは大きな値で、後半に小さな値にするのがベスト  
@@ -31,8 +37,14 @@ objective: 回帰、二値分類、他クラス分類化を指定する。
 ゲイン：特徴量の分岐により得た目的関数の現象  
 カバー：特徴量によって分岐させられたデータの数  
 頻度：特徴量が分岐に現れた回数  
-の三種類。もっとも重要度を表現しているのはゲイン。デフォルトだと頻度でだされるので、total_geinを指定する    
-https://sites.google.com/view/lauraepp/parameters
+の三種類。もっとも重要度を表現しているのはゲイン。デフォルトだと頻度でだされるので、total_geinを指定する　　
+https://sites.google.com/view/lauraepp/parameters  
+公式ドキュメント大事：https://lightgbm.readthedocs.io/en/latest/Parameters-Tuning.html
+
+## 特徴量選択
+・単変量統計を用いる。あくまで特徴量と目的変数の1対１の関係をみるので、特徴の相互作用は考慮されない。  
+相関係数：絶対値の大きい方から特徴を選択する。ピアソンの積率相関係数は線形以外の関係を捉えられない。スピアマンの順位相関係数は値の大きさの順位関係のみを捉える。  
+
 
 ## NN参考
 テーブルデータでのNNモデル  
