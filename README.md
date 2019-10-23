@@ -35,7 +35,7 @@ objective: 回帰、二値分類、他クラス分類化を指定する。
 https://sites.google.com/view/lauraepp/parameters
 
 ## NN参考
-テーブルデータでのNNモデル
+テーブルデータでのNNモデル  
 https://github.com/ChenglongChen/Kaggle_HomeDepot  
 https://github.com/dkivaranovic/kaggledays-recruit  
 https://github.com/puyokw/kaggle_Otto  
