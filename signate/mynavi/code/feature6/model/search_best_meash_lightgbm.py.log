@@ -1,0 +1,416 @@
+2019-10-25 14:18:40,324 __main__ 27 [INFO][main] read datasets 
+2019-10-25 14:18:40,474 __main__ 38 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:18:41,594 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:18:58,658 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 16240.504594329836 
+2019-10-25 14:18:58,658 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 16240.504594329836 
+2019-10-25 14:18:58,704 __main__ 143 [INFO][main] fold completed in 17.109508752822876s 
+2019-10-25 14:18:58,704 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:19:12,571 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 14736.30783156844 
+2019-10-25 14:19:12,571 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 14736.30783156844 
+2019-10-25 14:19:12,613 __main__ 143 [INFO][main] fold completed in 13.908268690109253s 
+2019-10-25 14:19:12,613 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:19:22,907 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 16206.582271539788 
+2019-10-25 14:19:22,907 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 16206.582271539788 
+2019-10-25 14:19:22,946 __main__ 143 [INFO][main] fold completed in 10.332775831222534s 
+2019-10-25 14:19:22,947 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:19:40,157 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 19886.189735680735 
+2019-10-25 14:19:40,157 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 19886.189735680735 
+2019-10-25 14:19:40,196 __main__ 143 [INFO][main] fold completed in 17.249597311019897s 
+2019-10-25 14:19:40,197 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:19:56,462 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 15094.644853935819 
+2019-10-25 14:19:56,462 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 15094.644853935819 
+2019-10-25 14:19:56,500 __main__ 143 [INFO][main] fold completed in 16.303090810775757s 
+2019-10-25 14:20:19,310 __main__ 27 [INFO][main] read datasets 
+2019-10-25 14:20:19,461 __main__ 38 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:20:20,612 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:20:43,983 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 16240.504594329836 
+2019-10-25 14:20:43,984 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 16240.504594329836 
+2019-10-25 14:20:44,030 __main__ 143 [INFO][main] fold completed in 23.417638778686523s 
+2019-10-25 14:20:44,030 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:20:58,056 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 14736.30783156844 
+2019-10-25 14:20:58,056 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 14736.30783156844 
+2019-10-25 14:20:58,094 __main__ 143 [INFO][main] fold completed in 14.06395411491394s 
+2019-10-25 14:20:58,095 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:21:09,093 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 16206.582271539788 
+2019-10-25 14:21:09,094 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 16206.582271539788 
+2019-10-25 14:21:09,130 __main__ 143 [INFO][main] fold completed in 11.034616231918335s 
+2019-10-25 14:21:09,130 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:21:24,496 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 19886.189735680735 
+2019-10-25 14:21:24,496 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 19886.189735680735 
+2019-10-25 14:21:24,533 __main__ 143 [INFO][main] fold completed in 15.402909278869629s 
+2019-10-25 14:21:24,534 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:21:48,491 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 15094.644853935819 
+2019-10-25 14:21:48,491 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 15094.644853935819 
+2019-10-25 14:21:48,529 __main__ 143 [INFO][main] fold completed in 23.995033740997314s 
+2019-10-25 14:23:43,990 __main__ 27 [INFO][main] read datasets 
+2019-10-25 14:23:44,155 __main__ 38 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:23:45,263 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:23:47,965 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18020.895918593946 
+2019-10-25 14:23:47,965 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18020.895918593946 
+2019-10-25 14:23:48,001 __main__ 143 [INFO][main] fold completed in 2.7381319999694824s 
+2019-10-25 14:23:48,002 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:23:49,370 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 16282.378252078783 
+2019-10-25 14:23:49,370 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 16282.378252078783 
+2019-10-25 14:23:49,404 __main__ 143 [INFO][main] fold completed in 1.4018592834472656s 
+2019-10-25 14:23:49,404 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:23:50,747 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 18730.97620055399 
+2019-10-25 14:23:50,747 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 18730.97620055399 
+2019-10-25 14:23:50,781 __main__ 143 [INFO][main] fold completed in 1.3764588832855225s 
+2019-10-25 14:23:50,781 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:23:52,129 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 22025.254387662528 
+2019-10-25 14:23:52,129 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 22025.254387662528 
+2019-10-25 14:23:52,164 __main__ 143 [INFO][main] fold completed in 1.3829679489135742s 
+2019-10-25 14:23:52,165 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:23:53,569 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 16762.384811108386 
+2019-10-25 14:23:53,570 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 16762.384811108386 
+2019-10-25 14:23:53,605 __main__ 143 [INFO][main] fold completed in 1.4399852752685547s 
+2019-10-25 14:23:53,611 __main__ 149 [INFO][main] params:{'lat_bin': 25, 'long_bin': 25}, CV RMSE:18364.377913999524 
+2019-10-25 14:23:53,611 __main__ 150 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 25}, CV RMSE mean:18364.377913999524 
+2019-10-25 14:23:53,611 __main__ 155 [INFO][main] END {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:23:53,611 __main__ 38 [INFO][main] START {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 14:23:54,670 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:23:56,134 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 1 fold, RMSE accuracy: 18610.832475665735 
+2019-10-25 14:23:56,134 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 1 fold, RMSE accuracy: 18610.832475665735 
+2019-10-25 14:23:56,168 __main__ 143 [INFO][main] fold completed in 1.4984588623046875s 
+2019-10-25 14:23:56,169 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:23:57,663 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 2 fold, RMSE accuracy: 16817.401721503913 
+2019-10-25 14:23:57,664 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 2 fold, RMSE accuracy: 16817.401721503913 
+2019-10-25 14:23:57,700 __main__ 143 [INFO][main] fold completed in 1.5306501388549805s 
+2019-10-25 14:23:57,700 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:23:59,237 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 3 fold, RMSE accuracy: 18775.132049006632 
+2019-10-25 14:23:59,237 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 3 fold, RMSE accuracy: 18775.132049006632 
+2019-10-25 14:23:59,275 __main__ 143 [INFO][main] fold completed in 1.5744948387145996s 
+2019-10-25 14:23:59,275 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:24:01,300 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 4 fold, RMSE accuracy: 22079.680354369993 
+2019-10-25 14:24:01,301 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 4 fold, RMSE accuracy: 22079.680354369993 
+2019-10-25 14:24:01,338 __main__ 143 [INFO][main] fold completed in 2.062917947769165s 
+2019-10-25 14:24:01,339 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:24:02,812 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 5 fold, RMSE accuracy: 17125.391861589313 
+2019-10-25 14:24:02,813 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 5 fold, RMSE accuracy: 17125.391861589313 
+2019-10-25 14:24:02,850 __main__ 143 [INFO][main] fold completed in 1.5107872486114502s 
+2019-10-25 14:24:02,855 __main__ 149 [INFO][main] params:{'lat_bin': 25, 'long_bin': 50}, CV RMSE:18681.687692427116 
+2019-10-25 14:24:02,855 __main__ 150 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 50}, CV RMSE mean:18681.687692427116 
+2019-10-25 14:24:02,855 __main__ 155 [INFO][main] END {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 14:24:02,855 __main__ 38 [INFO][main] START {'lat_bin': 25, 'long_bin': 75} 
+2019-10-25 14:24:47,446 __main__ 27 [INFO][main] read datasets 
+2019-10-25 14:24:47,601 __main__ 38 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:24:48,640 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:24:50,082 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18020.895918593946 
+2019-10-25 14:24:50,082 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18020.895918593946 
+2019-10-25 14:24:50,115 __main__ 143 [INFO][main] fold completed in 1.4750583171844482s 
+2019-10-25 14:24:50,116 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:24:51,481 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 16282.378252078783 
+2019-10-25 14:24:51,481 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 16282.378252078783 
+2019-10-25 14:24:51,515 __main__ 143 [INFO][main] fold completed in 1.399198293685913s 
+2019-10-25 14:24:51,516 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:24:52,871 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 18730.97620055399 
+2019-10-25 14:24:52,872 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 18730.97620055399 
+2019-10-25 14:24:52,905 __main__ 143 [INFO][main] fold completed in 1.3895058631896973s 
+2019-10-25 14:24:52,906 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:24:54,252 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 22025.254387662528 
+2019-10-25 14:24:54,252 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 22025.254387662528 
+2019-10-25 14:24:54,286 __main__ 143 [INFO][main] fold completed in 1.3804590702056885s 
+2019-10-25 14:24:54,287 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:24:55,823 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 16762.384811108386 
+2019-10-25 14:24:55,823 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 16762.384811108386 
+2019-10-25 14:24:55,858 __main__ 143 [INFO][main] fold completed in 1.5714640617370605s 
+2019-10-25 14:24:55,865 __main__ 149 [INFO][main] params:{'lat_bin': 25, 'long_bin': 25}, CV RMSE:18364.377913999524 
+2019-10-25 14:24:55,865 __main__ 150 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 25}, CV RMSE mean:18364.377913999524 
+2019-10-25 14:24:55,865 __main__ 155 [INFO][main] END {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:24:55,865 __main__ 157 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:24:55,865 __main__ 158 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:24:55,865 __main__ 38 [INFO][main] START {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 14:24:56,951 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:24:58,405 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 1 fold, RMSE accuracy: 18610.832475665735 
+2019-10-25 14:24:58,406 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 1 fold, RMSE accuracy: 18610.832475665735 
+2019-10-25 14:24:58,440 __main__ 143 [INFO][main] fold completed in 1.48909592628479s 
+2019-10-25 14:24:58,441 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:24:59,932 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 2 fold, RMSE accuracy: 16817.401721503913 
+2019-10-25 14:24:59,932 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 2 fold, RMSE accuracy: 16817.401721503913 
+2019-10-25 14:24:59,968 __main__ 143 [INFO][main] fold completed in 1.5272951126098633s 
+2019-10-25 14:24:59,969 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:25:01,503 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 3 fold, RMSE accuracy: 18775.132049006632 
+2019-10-25 14:25:01,503 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 3 fold, RMSE accuracy: 18775.132049006632 
+2019-10-25 14:25:01,539 __main__ 143 [INFO][main] fold completed in 1.5702242851257324s 
+2019-10-25 14:25:01,540 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:25:03,412 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 4 fold, RMSE accuracy: 22079.680354369993 
+2019-10-25 14:25:03,413 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 4 fold, RMSE accuracy: 22079.680354369993 
+2019-10-25 14:25:03,449 __main__ 143 [INFO][main] fold completed in 1.908919095993042s 
+2019-10-25 14:25:03,449 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:25:05,324 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 5 fold, RMSE accuracy: 17125.391861589313 
+2019-10-25 14:25:05,325 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 5 fold, RMSE accuracy: 17125.391861589313 
+2019-10-25 14:25:05,361 __main__ 143 [INFO][main] fold completed in 1.912095069885254s 
+2019-10-25 14:25:05,367 __main__ 149 [INFO][main] params:{'lat_bin': 25, 'long_bin': 50}, CV RMSE:18681.687692427116 
+2019-10-25 14:25:05,367 __main__ 150 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 50}, CV RMSE mean:18681.687692427116 
+2019-10-25 14:25:05,367 __main__ 155 [INFO][main] END {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 14:25:05,367 __main__ 157 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:25:05,367 __main__ 158 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:25:05,367 __main__ 38 [INFO][main] START {'lat_bin': 25, 'long_bin': 75} 
+2019-10-25 14:25:06,525 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:25:08,041 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 1 fold, RMSE accuracy: 18842.357361698105 
+2019-10-25 14:25:08,041 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 1 fold, RMSE accuracy: 18842.357361698105 
+2019-10-25 14:25:08,081 __main__ 143 [INFO][main] fold completed in 1.5560719966888428s 
+2019-10-25 14:25:08,082 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:25:09,718 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 2 fold, RMSE accuracy: 16826.694142967775 
+2019-10-25 14:25:09,718 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 2 fold, RMSE accuracy: 16826.694142967775 
+2019-10-25 14:25:09,756 __main__ 143 [INFO][main] fold completed in 1.6744139194488525s 
+2019-10-25 14:25:09,757 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:25:11,416 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 3 fold, RMSE accuracy: 18902.121098861964 
+2019-10-25 14:25:11,416 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 3 fold, RMSE accuracy: 18902.121098861964 
+2019-10-25 14:25:11,454 __main__ 143 [INFO][main] fold completed in 1.6973860263824463s 
+2019-10-25 14:25:11,455 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:25:13,118 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 4 fold, RMSE accuracy: 22304.130926767382 
+2019-10-25 14:25:13,118 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 4 fold, RMSE accuracy: 22304.130926767382 
+2019-10-25 14:25:13,157 __main__ 143 [INFO][main] fold completed in 1.7025527954101562s 
+2019-10-25 14:25:13,158 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:25:14,849 __main__ 134 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 5 fold, RMSE accuracy: 16742.6328338562 
+2019-10-25 14:25:14,849 __main__ 135 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 5 fold, RMSE accuracy: 16742.6328338562 
+2019-10-25 14:25:14,886 __main__ 143 [INFO][main] fold completed in 1.7281668186187744s 
+2019-10-25 14:25:14,891 __main__ 149 [INFO][main] params:{'lat_bin': 25, 'long_bin': 75}, CV RMSE:18723.587272830286 
+2019-10-25 14:25:14,892 __main__ 150 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 75}, CV RMSE mean:18723.587272830286 
+2019-10-25 14:25:14,892 __main__ 155 [INFO][main] END {'lat_bin': 25, 'long_bin': 75} 
+2019-10-25 14:25:14,892 __main__ 157 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:25:14,892 __main__ 158 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:25:14,892 __main__ 38 [INFO][main] START {'lat_bin': 50, 'long_bin': 25} 
+2019-10-25 14:25:15,969 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:25:17,941 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 25}, 1 fold, RMSE accuracy: 18781.309401081828 
+2019-10-25 14:25:17,941 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 25}, 1 fold, RMSE accuracy: 18781.309401081828 
+2019-10-25 14:25:17,982 __main__ 143 [INFO][main] fold completed in 2.012133836746216s 
+2019-10-25 14:25:17,982 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:25:19,684 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 25}, 2 fold, RMSE accuracy: 16376.066484921108 
+2019-10-25 14:25:19,684 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 25}, 2 fold, RMSE accuracy: 16376.066484921108 
+2019-10-25 14:25:19,722 __main__ 143 [INFO][main] fold completed in 1.7394120693206787s 
+2019-10-25 14:25:19,722 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:25:21,430 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 25}, 3 fold, RMSE accuracy: 19184.59406738352 
+2019-10-25 14:25:21,430 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 25}, 3 fold, RMSE accuracy: 19184.59406738352 
+2019-10-25 14:25:21,467 __main__ 143 [INFO][main] fold completed in 1.7448019981384277s 
+2019-10-25 14:25:21,468 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:25:23,603 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 25}, 4 fold, RMSE accuracy: 21958.343665635322 
+2019-10-25 14:25:23,603 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 25}, 4 fold, RMSE accuracy: 21958.343665635322 
+2019-10-25 14:25:23,642 __main__ 143 [INFO][main] fold completed in 2.1741702556610107s 
+2019-10-25 14:25:23,643 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:25:26,837 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 25}, 5 fold, RMSE accuracy: 17185.6810241367 
+2019-10-25 14:25:26,837 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 25}, 5 fold, RMSE accuracy: 17185.6810241367 
+2019-10-25 14:25:26,876 __main__ 143 [INFO][main] fold completed in 3.2326619625091553s 
+2019-10-25 14:25:26,882 __main__ 149 [INFO][main] params:{'lat_bin': 50, 'long_bin': 25}, CV RMSE:18697.198928631697 
+2019-10-25 14:25:26,882 __main__ 150 [DEBUG][main] parmas:{'lat_bin': 50, 'long_bin': 25}, CV RMSE mean:18697.198928631697 
+2019-10-25 14:25:26,882 __main__ 155 [INFO][main] END {'lat_bin': 50, 'long_bin': 25} 
+2019-10-25 14:25:26,882 __main__ 157 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:25:26,882 __main__ 158 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:25:26,882 __main__ 38 [INFO][main] START {'lat_bin': 50, 'long_bin': 50} 
+2019-10-25 14:25:28,110 __main__ 65 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:25:31,067 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 50}, 1 fold, RMSE accuracy: 19121.222436650052 
+2019-10-25 14:25:31,068 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 50}, 1 fold, RMSE accuracy: 19121.222436650052 
+2019-10-25 14:25:31,112 __main__ 143 [INFO][main] fold completed in 3.0018110275268555s 
+2019-10-25 14:25:31,113 __main__ 65 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:25:32,704 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 50}, 2 fold, RMSE accuracy: 16337.068326551323 
+2019-10-25 14:25:32,704 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 50}, 2 fold, RMSE accuracy: 16337.068326551323 
+2019-10-25 14:25:32,743 __main__ 143 [INFO][main] fold completed in 1.6298890113830566s 
+2019-10-25 14:25:32,744 __main__ 65 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:25:34,327 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 50}, 3 fold, RMSE accuracy: 19645.12441862043 
+2019-10-25 14:25:34,327 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 50}, 3 fold, RMSE accuracy: 19645.12441862043 
+2019-10-25 14:25:34,365 __main__ 143 [INFO][main] fold completed in 1.621002197265625s 
+2019-10-25 14:25:34,365 __main__ 65 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:25:35,929 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 50}, 4 fold, RMSE accuracy: 22646.91744180695 
+2019-10-25 14:25:35,929 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 50}, 4 fold, RMSE accuracy: 22646.91744180695 
+2019-10-25 14:25:35,967 __main__ 143 [INFO][main] fold completed in 1.6013150215148926s 
+2019-10-25 14:25:35,967 __main__ 65 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:25:37,494 __main__ 134 [INFO][main] params: {'lat_bin': 50, 'long_bin': 50}, 5 fold, RMSE accuracy: 17119.79840119348 
+2019-10-25 14:25:37,494 __main__ 135 [DEBUG][main] params:{'lat_bin': 50, 'long_bin': 50}, 5 fold, RMSE accuracy: 17119.79840119348 
+2019-10-25 14:25:37,530 __main__ 143 [INFO][main] fold completed in 1.5631029605865479s 
+2019-10-25 14:25:37,536 __main__ 149 [INFO][main] params:{'lat_bin': 50, 'long_bin': 50}, CV RMSE:18974.026204964444 
+2019-10-25 14:25:37,536 __main__ 150 [DEBUG][main] parmas:{'lat_bin': 50, 'long_bin': 50}, CV RMSE mean:18974.026204964444 
+2019-10-25 14:25:37,536 __main__ 155 [INFO][main] END {'lat_bin': 50, 'long_bin': 50} 
+2019-10-25 14:25:37,536 __main__ 157 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:25:37,536 __main__ 158 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:25:37,536 __main__ 38 [INFO][main] START {'lat_bin': 50, 'long_bin': 75} 
+2019-10-25 14:27:05,563 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:27:05,742 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:27:06,878 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:27:08,865 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18020.895918593946 
+2019-10-25 14:27:08,866 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18020.895918593946 
+2019-10-25 14:27:08,899 __main__ 144 [INFO][main] fold completed in 2.0207679271698s 
+2019-10-25 14:27:08,900 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:27:10,247 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 16282.378252078783 
+2019-10-25 14:27:10,247 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 16282.378252078783 
+2019-10-25 14:27:10,281 __main__ 144 [INFO][main] fold completed in 1.3811659812927246s 
+2019-10-25 14:27:10,282 __main__ 66 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:27:11,670 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 18730.97620055399 
+2019-10-25 14:27:11,670 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 18730.97620055399 
+2019-10-25 14:27:11,703 __main__ 144 [INFO][main] fold completed in 1.4217329025268555s 
+2019-10-25 14:27:11,704 __main__ 66 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:27:13,027 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 22025.254387662528 
+2019-10-25 14:27:13,027 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 22025.254387662528 
+2019-10-25 14:27:13,060 __main__ 144 [INFO][main] fold completed in 1.3563380241394043s 
+2019-10-25 14:27:13,061 __main__ 66 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:27:14,400 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 16762.384811108386 
+2019-10-25 14:27:14,400 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 16762.384811108386 
+2019-10-25 14:27:14,435 __main__ 144 [INFO][main] fold completed in 1.3740620613098145s 
+2019-10-25 14:27:14,441 __main__ 150 [INFO][main] params:{'lat_bin': 25, 'long_bin': 25}, CV RMSE:18364.377913999524 
+2019-10-25 14:27:14,441 __main__ 151 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 25}, CV RMSE mean:18364.377913999524 
+2019-10-25 14:27:14,441 __main__ 156 [INFO][main] END {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:27:14,441 __main__ 158 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:27:14,441 __main__ 159 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:27:14,441 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 14:27:15,470 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:27:16,877 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 1 fold, RMSE accuracy: 18610.832475665735 
+2019-10-25 14:27:16,877 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 1 fold, RMSE accuracy: 18610.832475665735 
+2019-10-25 14:27:16,912 __main__ 144 [INFO][main] fold completed in 1.4421732425689697s 
+2019-10-25 14:27:16,913 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:27:32,034 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:27:49,543 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:27:49,694 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:27:50,845 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:27:52,603 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18020.895918593946 
+2019-10-25 14:27:52,603 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18020.895918593946 
+2019-10-25 14:27:52,637 __main__ 144 [INFO][main] fold completed in 1.7915921211242676s 
+2019-10-25 14:27:52,637 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:27:53,986 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 16282.378252078783 
+2019-10-25 14:27:53,986 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 16282.378252078783 
+2019-10-25 14:27:54,020 __main__ 144 [INFO][main] fold completed in 1.3830461502075195s 
+2019-10-25 14:27:54,021 __main__ 66 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:27:55,381 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 18730.97620055399 
+2019-10-25 14:27:55,381 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 18730.97620055399 
+2019-10-25 14:27:55,417 __main__ 144 [INFO][main] fold completed in 1.3956389427185059s 
+2019-10-25 14:27:55,417 __main__ 66 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:27:56,795 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 22025.254387662528 
+2019-10-25 14:27:56,795 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 22025.254387662528 
+2019-10-25 14:27:56,829 __main__ 144 [INFO][main] fold completed in 1.4122281074523926s 
+2019-10-25 14:27:56,830 __main__ 66 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:27:58,339 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 16762.384811108386 
+2019-10-25 14:27:58,339 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 16762.384811108386 
+2019-10-25 14:27:58,375 __main__ 144 [INFO][main] fold completed in 1.5445330142974854s 
+2019-10-25 14:27:58,381 __main__ 150 [INFO][main] params:{'lat_bin': 25, 'long_bin': 25}, CV RMSE:18364.377913999524 
+2019-10-25 14:27:58,381 __main__ 151 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 25}, CV RMSE mean:18364.377913999524 
+2019-10-25 14:27:58,381 __main__ 156 [INFO][main] END {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:27:58,381 __main__ 158 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:27:58,381 __main__ 159 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:28:44,236 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:28:44,403 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:28:45,623 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:28:55,701 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:28:55,864 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:28:57,083 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:29:00,084 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18557.79891554554 
+2019-10-25 14:29:00,084 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18557.79891554554 
+2019-10-25 14:29:00,120 __main__ 144 [INFO][main] fold completed in 3.0368130207061768s 
+2019-10-25 14:29:00,121 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:29:02,865 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 20437.040188211216 
+2019-10-25 14:29:02,865 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 20437.040188211216 
+2019-10-25 14:29:02,905 __main__ 144 [INFO][main] fold completed in 2.7834160327911377s 
+2019-10-25 14:29:02,912 __main__ 150 [INFO][main] params:{'lat_bin': 25, 'long_bin': 25}, CV RMSE:19497.419551878378 
+2019-10-25 14:29:02,912 __main__ 151 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 25}, CV RMSE mean:19497.419551878378 
+2019-10-25 14:29:02,912 __main__ 156 [INFO][main] END {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:29:02,912 __main__ 158 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:29:02,912 __main__ 159 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:29:22,312 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:29:22,462 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:29:23,740 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:29:26,519 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18557.79891554554 
+2019-10-25 14:29:26,519 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18557.79891554554 
+2019-10-25 14:29:26,558 __main__ 144 [INFO][main] fold completed in 2.8181381225585938s 
+2019-10-25 14:29:26,559 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:29:29,362 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 20437.040188211216 
+2019-10-25 14:29:29,363 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 20437.040188211216 
+2019-10-25 14:29:29,404 __main__ 144 [INFO][main] fold completed in 2.8449721336364746s 
+2019-10-25 14:29:29,413 __main__ 150 [INFO][main] params:{'lat_bin': 25, 'long_bin': 25}, CV RMSE:19497.419551878378 
+2019-10-25 14:29:29,413 __main__ 151 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 25}, CV RMSE mean:19497.419551878378 
+2019-10-25 14:29:29,413 __main__ 156 [INFO][main] END {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:29:29,413 __main__ 158 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:29:29,413 __main__ 159 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:30:13,611 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:30:13,781 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:30:15,003 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:30:17,880 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18557.79891554554 
+2019-10-25 14:30:17,880 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 18557.79891554554 
+2019-10-25 14:30:17,918 __main__ 144 [INFO][main] fold completed in 2.9152770042419434s 
+2019-10-25 14:30:17,919 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:30:20,011 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 20437.040188211216 
+2019-10-25 14:30:20,011 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 20437.040188211216 
+2019-10-25 14:30:20,049 __main__ 144 [INFO][main] fold completed in 2.130281925201416s 
+2019-10-25 14:30:20,056 __main__ 150 [INFO][main] params:{'lat_bin': 25, 'long_bin': 25}, CV RMSE:19497.419551878378 
+2019-10-25 14:30:20,057 __main__ 151 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 25}, CV RMSE mean:19497.419551878378 
+2019-10-25 14:30:20,057 __main__ 156 [INFO][main] END {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:30:20,057 __main__ 158 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:30:20,057 __main__ 159 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:31:56,431 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:31:56,617 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:31:57,678 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:32:14,055 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 16240.504594329836 
+2019-10-25 14:32:14,055 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 16240.504594329836 
+2019-10-25 14:32:14,100 __main__ 144 [INFO][main] fold completed in 16.42157816886902s 
+2019-10-25 14:32:14,100 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:32:35,341 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:32:35,503 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:32:36,719 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:34:38,157 __main__ 28 [INFO][main] read datasets 
+2019-10-25 14:34:38,310 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:34:39,473 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:34:59,467 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 16240.504594329836 
+2019-10-25 14:34:59,467 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 1 fold, RMSE accuracy: 16240.504594329836 
+2019-10-25 14:34:59,513 __main__ 144 [INFO][main] fold completed in 20.040135860443115s 
+2019-10-25 14:34:59,514 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:35:14,024 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 14736.30783156844 
+2019-10-25 14:35:14,024 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 2 fold, RMSE accuracy: 14736.30783156844 
+2019-10-25 14:35:14,063 __main__ 144 [INFO][main] fold completed in 14.548884153366089s 
+2019-10-25 14:35:14,063 __main__ 66 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:35:23,962 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 16206.582271539788 
+2019-10-25 14:35:23,963 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 3 fold, RMSE accuracy: 16206.582271539788 
+2019-10-25 14:35:24,000 __main__ 144 [INFO][main] fold completed in 9.937076091766357s 
+2019-10-25 14:35:24,001 __main__ 66 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:35:38,335 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 19886.189735680735 
+2019-10-25 14:35:38,335 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 4 fold, RMSE accuracy: 19886.189735680735 
+2019-10-25 14:35:38,374 __main__ 144 [INFO][main] fold completed in 14.372994184494019s 
+2019-10-25 14:35:38,375 __main__ 66 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:35:53,490 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 15094.644853935819 
+2019-10-25 14:35:53,490 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 25}, 5 fold, RMSE accuracy: 15094.644853935819 
+2019-10-25 14:35:53,529 __main__ 144 [INFO][main] fold completed in 15.153584241867065s 
+2019-10-25 14:35:53,534 __main__ 150 [INFO][main] params:{'lat_bin': 25, 'long_bin': 25}, CV RMSE:16432.845857410925 
+2019-10-25 14:35:53,534 __main__ 151 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 25}, CV RMSE mean:16432.845857410925 
+2019-10-25 14:35:53,534 __main__ 156 [INFO][main] END {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:35:53,534 __main__ 158 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:35:53,535 __main__ 159 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:35:53,535 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 14:35:54,616 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:36:07,169 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 1 fold, RMSE accuracy: 17053.896165327646 
+2019-10-25 14:36:07,170 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 1 fold, RMSE accuracy: 17053.896165327646 
+2019-10-25 14:36:07,209 __main__ 144 [INFO][main] fold completed in 12.592628955841064s 
+2019-10-25 14:36:07,209 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:36:13,843 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 2 fold, RMSE accuracy: 15340.143316625737 
+2019-10-25 14:36:13,844 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 2 fold, RMSE accuracy: 15340.143316625737 
+2019-10-25 14:36:13,882 __main__ 144 [INFO][main] fold completed in 6.672255039215088s 
+2019-10-25 14:36:13,882 __main__ 66 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:36:27,447 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 3 fold, RMSE accuracy: 16508.979219872363 
+2019-10-25 14:36:27,448 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 3 fold, RMSE accuracy: 16508.979219872363 
+2019-10-25 14:36:27,489 __main__ 144 [INFO][main] fold completed in 13.606631994247437s 
+2019-10-25 14:36:27,490 __main__ 66 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:36:47,293 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 4 fold, RMSE accuracy: 20484.677966011623 
+2019-10-25 14:36:47,293 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 4 fold, RMSE accuracy: 20484.677966011623 
+2019-10-25 14:36:47,337 __main__ 144 [INFO][main] fold completed in 19.846577167510986s 
+2019-10-25 14:36:47,337 __main__ 66 [INFO][main] ** Training fold 5 ** 
+2019-10-25 14:36:56,577 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 50}, 5 fold, RMSE accuracy: 15798.723926463292 
+2019-10-25 14:36:56,577 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 50}, 5 fold, RMSE accuracy: 15798.723926463292 
+2019-10-25 14:36:56,616 __main__ 144 [INFO][main] fold completed in 9.278520107269287s 
+2019-10-25 14:36:56,621 __main__ 150 [INFO][main] params:{'lat_bin': 25, 'long_bin': 50}, CV RMSE:17037.28411886013 
+2019-10-25 14:36:56,622 __main__ 151 [DEBUG][main] parmas:{'lat_bin': 25, 'long_bin': 50}, CV RMSE mean:17037.28411886013 
+2019-10-25 14:36:56,622 __main__ 156 [INFO][main] END {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 14:36:56,622 __main__ 158 [DEBUG][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:36:56,622 __main__ 159 [INFO][main] best parameter:{'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:36:56,622 __main__ 39 [INFO][main] START {'lat_bin': 25, 'long_bin': 75} 
+2019-10-25 14:36:57,822 __main__ 66 [INFO][main] ** Training fold 1 ** 
+2019-10-25 14:37:07,950 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 1 fold, RMSE accuracy: 17259.74382681687 
+2019-10-25 14:37:07,950 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 1 fold, RMSE accuracy: 17259.74382681687 
+2019-10-25 14:37:07,993 __main__ 144 [INFO][main] fold completed in 10.171092987060547s 
+2019-10-25 14:37:07,994 __main__ 66 [INFO][main] ** Training fold 2 ** 
+2019-10-25 14:37:24,170 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 2 fold, RMSE accuracy: 15102.02901140618 
+2019-10-25 14:37:24,170 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 2 fold, RMSE accuracy: 15102.02901140618 
+2019-10-25 14:37:24,209 __main__ 144 [INFO][main] fold completed in 16.21493887901306s 
+2019-10-25 14:37:24,210 __main__ 66 [INFO][main] ** Training fold 3 ** 
+2019-10-25 14:37:37,581 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 3 fold, RMSE accuracy: 16306.01971646907 
+2019-10-25 14:37:37,581 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 3 fold, RMSE accuracy: 16306.01971646907 
+2019-10-25 14:37:37,619 __main__ 144 [INFO][main] fold completed in 13.409625053405762s 
+2019-10-25 14:37:37,620 __main__ 66 [INFO][main] ** Training fold 4 ** 
+2019-10-25 14:37:47,968 __main__ 135 [INFO][main] params: {'lat_bin': 25, 'long_bin': 75}, 4 fold, RMSE accuracy: 20359.176612978237 
+2019-10-25 14:37:47,968 __main__ 136 [DEBUG][main] params:{'lat_bin': 25, 'long_bin': 75}, 4 fold, RMSE accuracy: 20359.176612978237 
+2019-10-25 14:37:48,010 __main__ 144 [INFO][main] fold completed in 10.38939619064331s 
+2019-10-25 14:37:48,010 __main__ 66 [INFO][main] ** Training fold 5 ** 

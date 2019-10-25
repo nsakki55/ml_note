@@ -107,7 +107,12 @@ def main():
             
             X_trn.loc[:,c+'_target']=tmp
 
+        '''
         params = {
+            'max_depth' : 10,
+            #'min_child_weight' : 10,
+            #'subsample' : 0.5,
+            #'colsample_bytree': 0.7,
             'max_bin' : 63,
             'n_estimators' : 10000,
             'learning_rate': 0.01,
@@ -128,8 +133,17 @@ def main():
             'is_unbalance' : True,
             'boost_from_average' : False,
                 }
+        '''
         
-        
+        params = {
+            'n_estimators' : 10000,
+            'max_depth' : 10,
+            'min_child_weight' : 10,
+            'subsample' : 0.5,
+            'colsample_bytree': 0.7
+        }
+
+
         reg = lgb.LGBMRegressor(**params)
         reg.fit(X_trn, y_trn,
                 eval_set=eval_set, 
@@ -141,19 +155,19 @@ def main():
         
         val_pred=reg.predict(X_val)
 
-        cv_preds[val_index]=(np.exp(val_pred)-1)/FOLD
+        cv_preds[val_index]=np.exp(val_pred)-1
 
         feature_importances['feature'] = X_trn.columns
         feature_importances['fold_{}'.format(fold_n + 1)] = reg.feature_importances_
         
         del X_trn, y_trn
         
-        y_preds+=(np.exp(reg.predict(X_test))-1)
+        y_preds+=(np.exp(reg.predict(X_test))-1)/FOLD
         del reg, X_val
         val_rmse=rmse(np.exp(y_val)-1,np.exp(val_pred)-1)
         logger.info('RMSE accuracy: {}'.format(val_rmse))
         logger.debug('{} fold, RMSE accuracy: {}'.format(fold_n+1,val_rmse))
-        cv_preds[fold_n+1]=val_rmse
+        cv[fold_n+1]=val_rmse
         del val_pred,y_val,val_rmse
 
         gc.collect()

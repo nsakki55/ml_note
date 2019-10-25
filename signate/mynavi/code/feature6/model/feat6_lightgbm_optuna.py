@@ -21,6 +21,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import KFold
 import optuna 
 
+from logging import StreamHandler, DEBUG, Formatter, FileHandler, getLogger    
 
 def rmse(y_true,y_pred):
     return np.sqrt(mean_squared_error(y_true,y_pred))
@@ -143,10 +144,38 @@ def opt(trial):
 
 def main():
     study = optuna.create_study()   
-    study.optimize(opt, n_trials=100)
+    study.optimize(opt, n_trials=30)
 
     print(study.best_params)
     print(study.best_value)
 
+    logger.debug('best params:{}'.format(study.best_params))    
+    logger.debug('best values:{}'.format(study.best_value))
+
+
+
 if __name__=='__main__':
+
+    
+
+    log_fmt = Formatter('%(asctime)s %(name)s %(lineno)d [%(levelname)s][%(funcName)s] %(message)s ')
+    
+    # ハンドラはログ記録の適切な送り先等を決める
+    handler = StreamHandler()
+
+    # level よりも深刻でないログメッセージは無視される
+    handler.setLevel('INFO')
+    logger = getLogger(__name__)
+    logger.addHandler(handler)
+
+    # ログの保存先
+    handler = FileHandler('feat6_lightgbm_optuna.py.log', 'a')
+
+    # ログレベルをDEBUGに設定することで、コマンドラインにログが出力される
+    handler.setLevel(DEBUG)
+    handler.setFormatter(log_fmt)
+
+    logger.setLevel(DEBUG)
+    logger.addHandler(handler)
+
     main()

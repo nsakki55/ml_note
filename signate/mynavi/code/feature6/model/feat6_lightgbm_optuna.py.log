@@ -1,0 +1,2 @@
+2019-10-25 12:11:51,805 __main__ 152 [DEBUG][main] best params:{'max_depth': 10, 'min_child_weight': 3, 'subsample': 0.5, 'colsample_bytree': 0.7} 
+2019-10-25 12:11:51,810 __main__ 153 [DEBUG][main] best values:16392.54794919055 

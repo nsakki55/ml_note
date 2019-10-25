@@ -131,3 +131,172 @@
  20072.86938187 13939.7557128 ] 
 2019-10-25 01:06:00,555 __main__ 166 [INFO][main] CV RMSE:nan 
 2019-10-25 01:06:00,555 __main__ 167 [DEBUG][main] CV RMSE mean:nan 
+2019-10-25 10:02:44,775 __main__ 40 [INFO][main] read datasets 
+2019-10-25 10:02:44,980 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 10:03:54,851 __main__ 154 [INFO][main] RMSE accuracy: 17243.33156979287 
+2019-10-25 10:03:54,851 __main__ 155 [DEBUG][main] 1 fold, RMSE accuracy: 17243.33156979287 
+2019-10-25 10:03:54,901 __main__ 162 [INFO][main] fold completed in 69.92116498947144s 
+2019-10-25 10:03:54,902 __main__ 68 [INFO][main] ** Training fold 2 ** 
+2019-10-25 10:04:46,971 __main__ 154 [INFO][main] RMSE accuracy: 14462.947351458097 
+2019-10-25 10:04:46,971 __main__ 155 [DEBUG][main] 2 fold, RMSE accuracy: 14462.947351458097 
+2019-10-25 10:04:47,021 __main__ 162 [INFO][main] fold completed in 52.11934280395508s 
+2019-10-25 10:04:47,022 __main__ 68 [INFO][main] ** Training fold 3 ** 
+2019-10-25 10:05:51,227 __main__ 154 [INFO][main] RMSE accuracy: 18657.548885137894 
+2019-10-25 10:05:51,228 __main__ 155 [DEBUG][main] 3 fold, RMSE accuracy: 18657.548885137894 
+2019-10-25 10:05:51,280 __main__ 162 [INFO][main] fold completed in 64.25800013542175s 
+2019-10-25 10:05:51,281 __main__ 68 [INFO][main] ** Training fold 4 ** 
+2019-10-25 10:07:01,218 __main__ 154 [INFO][main] RMSE accuracy: 20775.157571114392 
+2019-10-25 10:07:01,218 __main__ 155 [DEBUG][main] 4 fold, RMSE accuracy: 20775.157571114392 
+2019-10-25 10:07:01,269 __main__ 162 [INFO][main] fold completed in 69.98871660232544s 
+2019-10-25 10:07:01,270 __main__ 68 [INFO][main] ** Training fold 5 ** 
+2019-10-25 10:07:55,562 __main__ 154 [INFO][main] RMSE accuracy: 16615.45282336809 
+2019-10-25 10:07:55,562 __main__ 155 [DEBUG][main] 5 fold, RMSE accuracy: 16615.45282336809 
+2019-10-25 10:07:55,613 __main__ 162 [INFO][main] fold completed in 54.34261703491211s 
+2019-10-25 10:07:55,613 __main__ 164 [INFO][main] [ 79018.19082447  62061.32560725 102925.89554145 ... 122918.62205363
+ 100364.34690937  69698.77856398] 
+2019-10-25 10:07:55,614 __main__ 166 [INFO][main] CV RMSE:nan 
+2019-10-25 10:07:55,614 __main__ 167 [DEBUG][main] CV RMSE mean:nan 
+2019-10-25 10:53:19,515 __main__ 40 [INFO][main] read datasets 
+2019-10-25 10:53:19,682 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 10:54:22,727 __main__ 154 [INFO][main] RMSE accuracy: 17243.33156979287 
+2019-10-25 10:54:22,727 __main__ 155 [DEBUG][main] 1 fold, RMSE accuracy: 17243.33156979287 
+2019-10-25 10:54:22,775 __main__ 162 [INFO][main] fold completed in 63.09357690811157s 
+2019-10-25 10:54:22,776 __main__ 68 [INFO][main] ** Training fold 2 ** 
+2019-10-25 10:55:19,095 __main__ 154 [INFO][main] RMSE accuracy: 14462.947351458097 
+2019-10-25 10:55:19,095 __main__ 155 [DEBUG][main] 2 fold, RMSE accuracy: 14462.947351458097 
+2019-10-25 10:55:19,149 __main__ 162 [INFO][main] fold completed in 56.37262797355652s 
+2019-10-25 10:55:19,149 __main__ 68 [INFO][main] ** Training fold 3 ** 
+2019-10-25 10:56:30,511 __main__ 154 [INFO][main] RMSE accuracy: 18657.548885137894 
+2019-10-25 10:56:30,511 __main__ 155 [DEBUG][main] 3 fold, RMSE accuracy: 18657.548885137894 
+2019-10-25 10:56:30,565 __main__ 162 [INFO][main] fold completed in 71.41585803031921s 
+2019-10-25 10:56:30,566 __main__ 68 [INFO][main] ** Training fold 4 ** 
+2019-10-25 10:57:55,476 __main__ 154 [INFO][main] RMSE accuracy: 20775.157571114392 
+2019-10-25 10:57:55,476 __main__ 155 [DEBUG][main] 4 fold, RMSE accuracy: 20775.157571114392 
+2019-10-25 10:57:55,529 __main__ 162 [INFO][main] fold completed in 84.96314907073975s 
+2019-10-25 10:57:55,529 __main__ 68 [INFO][main] ** Training fold 5 ** 
+2019-10-25 10:59:03,340 __main__ 154 [INFO][main] RMSE accuracy: 16615.45282336809 
+2019-10-25 10:59:03,341 __main__ 155 [DEBUG][main] 5 fold, RMSE accuracy: 16615.45282336809 
+2019-10-25 10:59:03,390 __main__ 162 [INFO][main] fold completed in 67.86024498939514s 
+2019-10-25 10:59:03,390 __main__ 164 [INFO][main] [ 79018.19082447  62061.32560725 102925.89554145 ... 122918.62205363
+ 100364.34690937  69698.77856398] 
+2019-10-25 10:59:03,394 __main__ 166 [INFO][main] CV RMSE:17550.887640174267 
+2019-10-25 10:59:03,394 __main__ 167 [DEBUG][main] CV RMSE mean:17550.887640174267 
+2019-10-25 11:14:43,179 __main__ 40 [INFO][main] read datasets 
+2019-10-25 11:14:43,345 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 11:15:43,038 __main__ 154 [INFO][main] RMSE accuracy: 17243.33156979287 
+2019-10-25 11:15:43,038 __main__ 155 [DEBUG][main] 1 fold, RMSE accuracy: 17243.33156979287 
+2019-10-25 11:15:43,088 __main__ 162 [INFO][main] fold completed in 59.74265813827515s 
+2019-10-25 11:15:43,088 __main__ 68 [INFO][main] ** Training fold 2 ** 
+2019-10-25 11:16:33,899 __main__ 154 [INFO][main] RMSE accuracy: 14462.947351458097 
+2019-10-25 11:16:33,899 __main__ 155 [DEBUG][main] 2 fold, RMSE accuracy: 14462.947351458097 
+2019-10-25 11:16:33,948 __main__ 162 [INFO][main] fold completed in 50.85933804512024s 
+2019-10-25 11:16:33,948 __main__ 68 [INFO][main] ** Training fold 3 ** 
+2019-10-25 11:17:56,062 __main__ 154 [INFO][main] RMSE accuracy: 18657.548885137894 
+2019-10-25 11:17:56,062 __main__ 155 [DEBUG][main] 3 fold, RMSE accuracy: 18657.548885137894 
+2019-10-25 11:17:56,118 __main__ 162 [INFO][main] fold completed in 82.16954183578491s 
+2019-10-25 11:17:56,118 __main__ 68 [INFO][main] ** Training fold 4 ** 
+2019-10-25 11:19:17,253 __main__ 154 [INFO][main] RMSE accuracy: 20775.157571114392 
+2019-10-25 11:19:17,253 __main__ 155 [DEBUG][main] 4 fold, RMSE accuracy: 20775.157571114392 
+2019-10-25 11:19:17,307 __main__ 162 [INFO][main] fold completed in 81.18903088569641s 
+2019-10-25 11:19:17,308 __main__ 68 [INFO][main] ** Training fold 5 ** 
+2019-10-25 11:20:18,496 __main__ 154 [INFO][main] RMSE accuracy: 16615.45282336809 
+2019-10-25 11:20:18,496 __main__ 155 [DEBUG][main] 5 fold, RMSE accuracy: 16615.45282336809 
+2019-10-25 11:20:18,552 __main__ 162 [INFO][main] fold completed in 61.243537187576294s 
+2019-10-25 11:20:18,552 __main__ 164 [INFO][main] [ 79018.19082447  62061.32560725 102925.89554145 ... 122918.62205363
+ 100364.34690937  69698.77856398] 
+2019-10-25 11:20:18,555 __main__ 166 [INFO][main] CV RMSE:17550.887640174267 
+2019-10-25 11:20:18,556 __main__ 167 [DEBUG][main] CV RMSE mean:17550.887640174267 
+2019-10-25 12:30:12,738 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:30:12,929 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:30:57,015 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:30:57,180 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:31:26,695 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:31:26,859 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:31:42,670 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:31:42,862 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:32:30,385 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:32:30,573 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:32:52,988 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:32:53,156 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:33:11,028 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:33:11,218 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:35:25,876 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:35:26,069 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:35:28,746 __main__ 167 [INFO][main] RMSE accuracy: 18436.03124649963 
+2019-10-25 12:35:28,746 __main__ 168 [DEBUG][main] 1 fold, RMSE accuracy: 18436.03124649963 
+2019-10-25 12:35:28,798 __main__ 175 [INFO][main] fold completed in 2.7287778854370117s 
+2019-10-25 12:35:28,798 __main__ 68 [INFO][main] ** Training fold 2 ** 
+2019-10-25 12:35:30,278 __main__ 167 [INFO][main] RMSE accuracy: 16228.415120368527 
+2019-10-25 12:35:30,278 __main__ 168 [DEBUG][main] 2 fold, RMSE accuracy: 16228.415120368527 
+2019-10-25 12:35:30,325 __main__ 175 [INFO][main] fold completed in 1.5270090103149414s 
+2019-10-25 12:35:30,326 __main__ 68 [INFO][main] ** Training fold 3 ** 
+2019-10-25 12:35:31,642 __main__ 167 [INFO][main] RMSE accuracy: 19835.40272394371 
+2019-10-25 12:35:31,642 __main__ 168 [DEBUG][main] 3 fold, RMSE accuracy: 19835.40272394371 
+2019-10-25 12:35:31,690 __main__ 175 [INFO][main] fold completed in 1.3636021614074707s 
+2019-10-25 12:35:31,690 __main__ 68 [INFO][main] ** Training fold 4 ** 
+2019-10-25 12:35:33,016 __main__ 167 [INFO][main] RMSE accuracy: 22451.075868204003 
+2019-10-25 12:35:33,017 __main__ 168 [DEBUG][main] 4 fold, RMSE accuracy: 22451.075868204003 
+2019-10-25 12:35:33,064 __main__ 175 [INFO][main] fold completed in 1.374094009399414s 
+2019-10-25 12:35:33,065 __main__ 68 [INFO][main] ** Training fold 5 ** 
+2019-10-25 12:35:34,399 __main__ 167 [INFO][main] RMSE accuracy: 17120.487308817992 
+2019-10-25 12:35:34,399 __main__ 168 [DEBUG][main] 5 fold, RMSE accuracy: 17120.487308817992 
+2019-10-25 12:35:34,448 __main__ 175 [INFO][main] fold completed in 1.3831591606140137s 
+2019-10-25 12:35:34,451 __main__ 177 [INFO][main] [ 84922.48346139  65528.96386104 106395.5019513  ... 107442.98380468
+ 100071.39462387  70971.59522063] 
+2019-10-25 12:35:34,454 __main__ 179 [INFO][main] CV RMSE:18814.28245356677 
+2019-10-25 12:35:34,455 __main__ 180 [DEBUG][main] CV RMSE mean:18814.28245356677 
+2019-10-25 12:36:34,418 __main__ 40 [INFO][main] read datasets 
+2019-10-25 12:36:34,603 __main__ 68 [INFO][main] ** Training fold 1 ** 
+2019-10-25 12:36:46,412 __main__ 168 [INFO][main] RMSE accuracy: 16440.306532281356 
+2019-10-25 12:36:46,412 __main__ 169 [DEBUG][main] 1 fold, RMSE accuracy: 16440.306532281356 
+2019-10-25 12:36:46,463 __main__ 176 [INFO][main] fold completed in 11.860530853271484s 
+2019-10-25 12:36:46,464 __main__ 68 [INFO][main] ** Training fold 2 ** 
+2019-10-25 12:36:52,493 __main__ 168 [INFO][main] RMSE accuracy: 14492.32966524296 
+2019-10-25 12:36:52,493 __main__ 169 [DEBUG][main] 2 fold, RMSE accuracy: 14492.32966524296 
+2019-10-25 12:36:52,549 __main__ 176 [INFO][main] fold completed in 6.085103988647461s 
+2019-10-25 12:36:52,550 __main__ 68 [INFO][main] ** Training fold 3 ** 
+2019-10-25 12:37:04,798 __main__ 168 [INFO][main] RMSE accuracy: 16753.418847242814 
+2019-10-25 12:37:04,798 __main__ 169 [DEBUG][main] 3 fold, RMSE accuracy: 16753.418847242814 
+2019-10-25 12:37:04,855 __main__ 176 [INFO][main] fold completed in 12.305491209030151s 
+2019-10-25 12:37:04,856 __main__ 68 [INFO][main] ** Training fold 4 ** 
+2019-10-25 12:37:12,749 __main__ 168 [INFO][main] RMSE accuracy: 20327.160276079743 
+2019-10-25 12:37:12,749 __main__ 169 [DEBUG][main] 4 fold, RMSE accuracy: 20327.160276079743 
+2019-10-25 12:37:12,799 __main__ 176 [INFO][main] fold completed in 7.943306922912598s 
+2019-10-25 12:37:12,800 __main__ 68 [INFO][main] ** Training fold 5 ** 
+2019-10-25 12:37:25,890 __main__ 168 [INFO][main] RMSE accuracy: 15050.525681476838 
+2019-10-25 12:37:25,890 __main__ 169 [DEBUG][main] 5 fold, RMSE accuracy: 15050.525681476838 
+2019-10-25 12:37:25,948 __main__ 176 [INFO][main] fold completed in 13.147650718688965s 
+2019-10-25 12:37:25,951 __main__ 178 [INFO][main] [ 81959.18255199  67755.78519592 103243.19070549 ... 108939.52176721
+  99790.24093054  71702.44422914] 
+2019-10-25 12:37:25,954 __main__ 180 [INFO][main] CV RMSE:16612.74820046474 
+2019-10-25 12:37:25,955 __main__ 181 [DEBUG][main] CV RMSE mean:16612.74820046474 
+2019-10-25 13:55:51,906 __main__ 23 [INFO][main] read datasets 
+2019-10-25 13:56:27,273 __main__ 23 [INFO][main] read datasets 
+2019-10-25 13:57:17,695 __main__ 23 [INFO][main] read datasets 
+2019-10-25 13:57:18,774 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 13:57:19,603 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 13:57:20,431 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 75} 
+2019-10-25 13:57:21,277 __main__ 31 [INFO][main] {'lat_bin': 50, 'long_bin': 25} 
+2019-10-25 13:57:22,107 __main__ 31 [INFO][main] {'lat_bin': 50, 'long_bin': 50} 
+2019-10-25 13:57:22,938 __main__ 31 [INFO][main] {'lat_bin': 50, 'long_bin': 75} 
+2019-10-25 13:57:23,785 __main__ 31 [INFO][main] {'lat_bin': 75, 'long_bin': 25} 
+2019-10-25 13:57:24,612 __main__ 31 [INFO][main] {'lat_bin': 75, 'long_bin': 50} 
+2019-10-25 13:57:25,459 __main__ 31 [INFO][main] {'lat_bin': 75, 'long_bin': 75} 
+2019-10-25 13:57:58,907 __main__ 23 [INFO][main] read datasets 
+2019-10-25 13:57:59,974 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 13:58:15,537 __main__ 23 [INFO][main] read datasets 
+2019-10-25 13:58:16,605 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 13:58:17,429 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 50} 
+2019-10-25 13:58:18,250 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 75} 
+2019-10-25 13:58:19,103 __main__ 31 [INFO][main] {'lat_bin': 50, 'long_bin': 25} 
+2019-10-25 13:58:19,927 __main__ 31 [INFO][main] {'lat_bin': 50, 'long_bin': 50} 
+2019-10-25 13:58:20,753 __main__ 31 [INFO][main] {'lat_bin': 50, 'long_bin': 75} 
+2019-10-25 13:58:21,591 __main__ 31 [INFO][main] {'lat_bin': 75, 'long_bin': 25} 
+2019-10-25 13:58:22,412 __main__ 31 [INFO][main] {'lat_bin': 75, 'long_bin': 50} 
+2019-10-25 13:58:23,255 __main__ 31 [INFO][main] {'lat_bin': 75, 'long_bin': 75} 
+2019-10-25 14:00:05,827 __main__ 23 [INFO][main] read datasets 
+2019-10-25 14:00:06,960 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:01:09,496 __main__ 23 [INFO][main] read datasets 
+2019-10-25 14:01:10,604 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 25} 
+2019-10-25 14:01:46,541 __main__ 23 [INFO][main] read datasets 
+2019-10-25 14:01:47,640 __main__ 31 [INFO][main] {'lat_bin': 25, 'long_bin': 25} 
