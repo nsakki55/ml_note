@@ -27,7 +27,7 @@ def rmse_lgb(preds,dtrain):
 def main():
     logger.info('read datasets')
 
-    params_grid={'lat_bin':[5*i for i in range(5,30,5)],'long_bin':[5*i for i in range(5,30,5)]}
+    params_grid={'lat_bin':[i for i in range(5,26,5)],'long_bin':[i for i in range(5,26,5)]}
 
     mm=make_mesh()
 
@@ -159,7 +159,7 @@ def main():
         logger.info('best parameter:{}'.format(best_params))
         
     print(grid_rmse)
-    pd.DataFrame(grid_rmse,index=['parmas',]).to_csv('grid_params_rmse.csv')
+    pd.DataFrame(grid_rmse,index=['parmas',]).to_csv('grid_params_rmse2.csv')
 
 
 

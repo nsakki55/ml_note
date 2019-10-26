@@ -1,0 +1,103 @@
+2019-10-25 18:11:54,594 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:11:56,449 __main__ 196 [INFO][main] train shape(25168, 199) 
+2019-10-25 18:11:56,450 __main__ 197 [INFO][main] val shape(6293, 199) 
+2019-10-25 18:11:56,450 __main__ 201 [INFO][main] Training START 
+2019-10-25 18:13:38,166 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:13:40,271 __main__ 196 [INFO][main] train shape(25168, 199) 
+2019-10-25 18:13:40,272 __main__ 197 [INFO][main] val shape(6293, 199) 
+2019-10-25 18:13:40,272 __main__ 201 [INFO][main] Training START 
+2019-10-25 18:14:45,924 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:14:47,805 __main__ 196 [INFO][main] train shape(25168, 199) 
+2019-10-25 18:14:47,805 __main__ 197 [INFO][main] val shape(6293, 199) 
+2019-10-25 18:14:47,805 __main__ 201 [INFO][main] Training START 
+2019-10-25 18:14:51,304 __main__ 141 [INFO][main] ** Training fold 2 ** 
+2019-10-25 18:17:36,743 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:19:24,483 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:21:26,327 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:22:31,007 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:22:31,349 __main__ 189 [INFO][main] train shape(25168, 199) 
+2019-10-25 18:22:31,349 __main__ 190 [INFO][main] val shape(6293, 199) 
+2019-10-25 18:23:00,551 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:23:00,889 __main__ 189 [INFO][main] train shape(25168, 199) 
+2019-10-25 18:23:00,889 __main__ 190 [INFO][main] val shape(6293, 199) 
+2019-10-25 18:23:00,890 __main__ 191 [INFO][main] test shape(31262, 187) 
+2019-10-25 18:23:52,218 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:23:52,554 __main__ 189 [INFO][main] train shape(25168, 199) 
+2019-10-25 18:23:52,554 __main__ 190 [INFO][main] val shape(6293, 199) 
+2019-10-25 18:23:52,554 __main__ 191 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:23:54,080 __main__ 202 [INFO][main] Training START 
+2019-10-25 18:23:57,543 __main__ 141 [INFO][main] ** Training fold 2 ** 
+2019-10-25 18:23:57,923 __main__ 189 [INFO][main] train shape(25169, 199) 
+2019-10-25 18:23:57,923 __main__ 190 [INFO][main] val shape(6292, 199) 
+2019-10-25 18:23:57,924 __main__ 191 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:23:59,474 __main__ 202 [INFO][main] Training START 
+2019-10-25 18:24:03,005 __main__ 141 [INFO][main] ** Training fold 3 ** 
+2019-10-25 18:24:03,438 __main__ 189 [INFO][main] train shape(25169, 199) 
+2019-10-25 18:24:03,438 __main__ 190 [INFO][main] val shape(6292, 199) 
+2019-10-25 18:24:03,439 __main__ 191 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:24:05,064 __main__ 202 [INFO][main] Training START 
+2019-10-25 18:24:08,520 __main__ 141 [INFO][main] ** Training fold 4 ** 
+2019-10-25 18:24:08,959 __main__ 189 [INFO][main] train shape(25169, 199) 
+2019-10-25 18:24:08,959 __main__ 190 [INFO][main] val shape(6292, 199) 
+2019-10-25 18:24:08,959 __main__ 191 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:24:10,630 __main__ 202 [INFO][main] Training START 
+2019-10-25 18:24:14,174 __main__ 141 [INFO][main] ** Training fold 5 ** 
+2019-10-25 18:24:14,622 __main__ 189 [INFO][main] train shape(25169, 199) 
+2019-10-25 18:24:14,622 __main__ 190 [INFO][main] val shape(6292, 199) 
+2019-10-25 18:24:14,622 __main__ 191 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:24:16,309 __main__ 202 [INFO][main] Training START 
+2019-10-25 18:33:17,028 __main__ 141 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:33:17,363 __main__ 191 [INFO][main] train shape(25168, 199) 
+2019-10-25 18:33:17,363 __main__ 192 [INFO][main] val shape(6293, 199) 
+2019-10-25 18:33:17,363 __main__ 193 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:33:18,908 __main__ 204 [INFO][main] Training START 
+2019-10-25 18:33:22,388 __main__ 141 [INFO][main] ** Training fold 2 ** 
+2019-10-25 18:33:22,770 __main__ 191 [INFO][main] train shape(25169, 199) 
+2019-10-25 18:33:22,770 __main__ 192 [INFO][main] val shape(6292, 199) 
+2019-10-25 18:33:22,770 __main__ 193 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:33:24,322 __main__ 204 [INFO][main] Training START 
+2019-10-25 18:35:13,844 __main__ 151 [INFO][main] ** Training fold 1 ** 
+2019-10-25 18:35:14,177 __main__ 199 [INFO][main] train shape(25168, 199) 
+2019-10-25 18:35:14,177 __main__ 200 [INFO][main] val shape(6293, 199) 
+2019-10-25 18:35:14,177 __main__ 201 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:35:15,699 __main__ 212 [INFO][main] Training START 
+2019-10-25 18:35:19,191 __main__ 151 [INFO][main] ** Training fold 2 ** 
+2019-10-25 18:35:19,570 __main__ 199 [INFO][main] train shape(25169, 199) 
+2019-10-25 18:35:19,570 __main__ 200 [INFO][main] val shape(6292, 199) 
+2019-10-25 18:35:19,570 __main__ 201 [INFO][main] test shape(31262, 199) 
+2019-10-25 18:35:21,122 __main__ 212 [INFO][main] Training START 
+2019-10-25 19:13:00,609 __main__ 158 [INFO][main] ** Training fold 1 ** 
+2019-10-25 19:13:00,946 __main__ 206 [INFO][main] train shape(25168, 199) 
+2019-10-25 19:13:00,946 __main__ 207 [INFO][main] val shape(6293, 199) 
+2019-10-25 19:13:00,946 __main__ 208 [INFO][main] test shape(31262, 199) 
+2019-10-25 19:13:02,474 __main__ 219 [INFO][main] Training START 
+2019-10-25 19:13:05,999 __main__ 158 [INFO][main] ** Training fold 2 ** 
+2019-10-25 19:13:06,375 __main__ 206 [INFO][main] train shape(25169, 199) 
+2019-10-25 19:13:06,376 __main__ 207 [INFO][main] val shape(6292, 199) 
+2019-10-25 19:13:06,376 __main__ 208 [INFO][main] test shape(31262, 199) 
+2019-10-25 19:13:07,920 __main__ 219 [INFO][main] Training START 
+2019-10-25 19:13:11,376 __main__ 158 [INFO][main] ** Training fold 3 ** 
+2019-10-25 19:13:11,794 __main__ 206 [INFO][main] train shape(25169, 199) 
+2019-10-25 19:13:11,794 __main__ 207 [INFO][main] val shape(6292, 199) 
+2019-10-25 19:13:11,794 __main__ 208 [INFO][main] test shape(31262, 199) 
+2019-10-25 19:13:13,433 __main__ 219 [INFO][main] Training START 
+2019-10-25 19:13:16,909 __main__ 158 [INFO][main] ** Training fold 4 ** 
+2019-10-25 19:13:17,351 __main__ 206 [INFO][main] train shape(25169, 199) 
+2019-10-25 19:13:17,351 __main__ 207 [INFO][main] val shape(6292, 199) 
+2019-10-25 19:13:17,351 __main__ 208 [INFO][main] test shape(31262, 199) 
+2019-10-25 19:13:19,006 __main__ 219 [INFO][main] Training START 
+2019-10-25 19:13:22,576 __main__ 158 [INFO][main] ** Training fold 5 ** 
+2019-10-25 19:13:23,030 __main__ 206 [INFO][main] train shape(25169, 199) 
+2019-10-25 19:13:23,031 __main__ 207 [INFO][main] val shape(6292, 199) 
+2019-10-25 19:13:23,031 __main__ 208 [INFO][main] test shape(31262, 199) 
+2019-10-25 19:13:24,690 __main__ 219 [INFO][main] Training START 
+2019-10-25 19:14:15,241 __main__ 158 [INFO][main] ** Training fold 1 ** 
+2019-10-25 19:14:15,659 __main__ 206 [INFO][main] train shape(25168, 199) 
+2019-10-25 19:14:15,659 __main__ 207 [INFO][main] val shape(6293, 199) 
+2019-10-25 19:14:15,659 __main__ 208 [INFO][main] test shape(31262, 199) 
+2019-10-25 19:14:24,447 __main__ 221 [INFO][main] Training START 
+2019-10-25 19:14:28,493 __main__ 158 [INFO][main] ** Training fold 2 ** 
+2019-10-25 19:14:28,998 __main__ 206 [INFO][main] train shape(25169, 199) 
+2019-10-25 19:14:28,998 __main__ 207 [INFO][main] val shape(6292, 199) 
+2019-10-25 19:14:28,998 __main__ 208 [INFO][main] test shape(31262, 199) 
+2019-10-25 19:14:37,777 __main__ 221 [INFO][main] Training START 
