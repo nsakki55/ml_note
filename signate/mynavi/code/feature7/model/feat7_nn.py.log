@@ -101,3 +101,62 @@
 2019-10-25 19:14:28,998 __main__ 207 [INFO][main] val shape(6292, 199) 
 2019-10-25 19:14:28,998 __main__ 208 [INFO][main] test shape(31262, 199) 
 2019-10-25 19:14:37,777 __main__ 221 [INFO][main] Training START 
+2019-10-28 10:19:53,460 __main__ 158 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:21:15,469 __main__ 158 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:23:51,547 __main__ 163 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:23:52,226 __main__ 216 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:23:52,226 __main__ 217 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:23:52,226 __main__ 218 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:23:59,295 __main__ 231 [INFO][main] Training START 
+2019-10-28 10:26:22,823 __main__ 163 [INFO][main] ** Training fold 2 ** 
+2019-10-28 10:26:23,615 __main__ 216 [INFO][main] train shape(25169, 199) 
+2019-10-28 10:26:23,615 __main__ 217 [INFO][main] val shape(6292, 199) 
+2019-10-28 10:26:23,615 __main__ 218 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:26:30,765 __main__ 231 [INFO][main] Training START 
+2019-10-28 10:45:25,135 __main__ 168 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:45:25,721 __main__ 220 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:45:25,721 __main__ 221 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:45:25,721 __main__ 222 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:45:48,179 __main__ 168 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:45:48,781 __main__ 220 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:45:48,781 __main__ 221 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:45:48,781 __main__ 222 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:46:33,502 __main__ 168 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:46:34,107 __main__ 220 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:46:34,107 __main__ 221 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:46:34,107 __main__ 222 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:46:41,320 __main__ 235 [INFO][main] Training START 
+2019-10-28 10:51:40,620 __main__ 168 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:51:41,217 __main__ 221 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:51:41,218 __main__ 222 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:51:41,218 __main__ 223 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:51:48,196 __main__ 236 [INFO][main] Training START 
+2019-10-28 10:56:13,591 __main__ 196 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:56:14,206 __main__ 249 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:56:14,206 __main__ 250 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:56:14,206 __main__ 251 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:56:21,321 __main__ 264 [INFO][main] Training START 
+2019-10-28 10:56:53,017 __main__ 196 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:56:53,617 __main__ 249 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:56:53,617 __main__ 250 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:56:53,617 __main__ 251 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:57:00,472 __main__ 264 [INFO][main] Training START 
+2019-10-28 10:57:51,214 __main__ 197 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:57:51,845 __main__ 250 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:57:51,845 __main__ 251 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:57:51,845 __main__ 252 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:57:58,757 __main__ 265 [INFO][main] Training START 
+2019-10-28 10:59:01,094 __main__ 195 [INFO][main] ** Training fold 1 ** 
+2019-10-28 10:59:01,767 __main__ 248 [INFO][main] train shape(25168, 199) 
+2019-10-28 10:59:01,767 __main__ 249 [INFO][main] val shape(6293, 199) 
+2019-10-28 10:59:01,767 __main__ 250 [INFO][main] test shape(31262, 199) 
+2019-10-28 10:59:08,663 __main__ 263 [INFO][main] Training START 
+2019-10-28 10:59:39,802 __main__ 275 [INFO][main] 1 fold RMSE:137343.92114468908 
+2019-10-28 10:59:39,802 __main__ 277 [INFO][main] Test predict START 
+2019-10-28 11:00:06,801 __main__ 195 [INFO][main] ** Training fold 1 ** 
+2019-10-28 11:00:07,393 __main__ 248 [INFO][main] train shape(25168, 199) 
+2019-10-28 11:00:07,393 __main__ 249 [INFO][main] val shape(6293, 199) 
+2019-10-28 11:00:07,393 __main__ 250 [INFO][main] test shape(31262, 199) 
+2019-10-28 11:00:14,382 __main__ 263 [INFO][main] Training START 
+2019-10-28 11:15:43,411 __main__ 275 [INFO][main] 1 fold RMSE:7.62520311752033e+22 
+2019-10-28 11:15:43,412 __main__ 277 [INFO][main] Test predict START 

@@ -5,12 +5,12 @@ from tensorflow.python.keras.layers.normalization import BatchNormalization
 from tensorflow.python.keras.layers.advanced_activations import ELU, PReLU
 from tensorflow.python.keras.optimizers import SGD
 from tensorflow.python.keras.utils import np_utils, generic_utils
-from tensorflow.keras.callbacks import EarlyStopping
-
+from tensorflow.keras.callbacks import EarlyStopping, Callback
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 import pandas as pd
+import matplotlib.pyplot as plt 
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error
 from fillna_feat6 import make_data
@@ -23,8 +23,7 @@ from tensorflow.python import debug as tf_debug
 from tensorflow.python.debug.lib.debug_data import has_inf_or_nan
 
 from keras import backend as K
-
-
+from sklearn.metrics import mean_squared_error
 
 FOLD=5
 SEED=0
@@ -110,27 +109,57 @@ class KerasDNNRegressor:
         ## callback
         early_stopping = EarlyStopping(monitor='val_loss', min_delta=0, patience=0, verbose=0, mode='auto')
         
+        cb_my = LossHistory()
+
         ## fit
         self.model.fit(X, y,
                     epochs=self.epochs, 
                     batch_size=self.batch_size,
                     validation_data=[X_val,y_val], 
-                    callbacks=[early_stopping],
+                    callbacks=[early_stopping, cb_my],
                     verbose=1)
         return self
 
     def predict(self, X):
-        X = self.scaler.transform(X)
+       # X = self.scaler.transform(X)
         y_pred = self.model.predict(X)
         y_pred = y_pred.flatten()
         return y_pred
 
+
+
+class LossHistory(Callback):
+    def __init__(self):
+        # コンストラクタに保持用の配列を宣言しておく
+        self.train_acc = []
+        self.train_loss = []
+        self.val_acc = []
+        self.val_loss = []
+
+    def on_epoch_end(self, epoch, logs={}):
+        # 配列にEpochが終わるたびにAppendしていく
+
+        self.train_loss.append(logs['loss'])
+        self.val_loss.append(logs['val_loss'])
+
+        # グラフ描画部
+        plt.figure(num=1, clear=True)
+        plt.title('loss')
+        plt.xlabel('epoch')
+        plt.ylabel('loss')
+        plt.plot(self.train_loss, label='train')
+        plt.plot(self.val_loss, label='validation')
+        plt.legend()
+        plt.pause(0.1)
 
 def set_debugger_session():
     sess = K.get_session()
     sess = tf_debug.LocalCLIDebugWrapperSession(sess)
     sess.add_tensor_filter('has_inf_or_nan', has_inf_or_nan)
     K.set_session(sess)
+
+def rmse(y_true, y_pred):
+    return np.sqrt(mean_squared_error(y_true, y_pred))
 
 
 
@@ -144,6 +173,14 @@ def main():
     y_train = train.rent_log
     X_train = train.drop(['id','rent_log'],axis=1)
     X_test = test.drop(['id','rent_log'],axis=1)
+
+    cv_rmse = {}
+    cv_preds = np.zeros(X_train.shape[0])
+    y_preds = np.zeros(X_test.shape[0])
+
+    for col in X_train.select_dtypes(include = 'category').columns:
+        X_train[col] = X_train[col].astype(int)
+        X_test[col] = X_test[col].astype(int)
 
     kfold=KFold(n_splits=FOLD,shuffle=True,random_state=SEED)
 
@@ -196,6 +233,11 @@ def main():
             
             X_trn.loc[:,c+'_target']=tmp
         
+        # Target Encoding の欠損値を訓練データの平均で補完
+        X_trn = X_trn.fillna(X_trn.mean())
+        X_val = X_val.fillna(X_trn.mean())
+        X_test = X_test.fillna(X_trn.mean())
+        
         if SCALER == 'standard':
             sc = StandardScaler()
         elif SCALER == 'robust':
@@ -216,10 +258,48 @@ def main():
         
         pd.DataFrame(X_trn).to_csv('train.csv')
 
-        nn=KerasDNNRegressor()
+        nn=KerasDNNRegressor(epochs = 1000)
 
         logger.info('Training START')
         nn.fit(X_trn ,y_trn.values, X_val, y_val.values)
+
+        del X_trn, y_trn
+        y_val_pred=nn.predict(X_val)
+
+        cv_preds[val_index]=np.exp(y_val_pred)-1
+        val_rmse = rmse(np.exp(y_val)-1, np.exp(y_val_pred)-1)
+        cv_rmse[fold_n+1] = val_rmse
+
+        del X_val, y_val_pred
+
+        logger.info('{} fold RMSE:{}'.format(fold_n+1, val_rmse))
+        
+        logger.info('Test predict START')
+        y_pred = nn.predict(X_test)
+        y_preds += (np.exp(y_pred)-1)/FOLD
+
+        del y_pred
+
+        gc.collect()
+        
+        cv_fold_end_time = time()
+        logger.info('fold completed in {}s'.format(cv_fold_end_time - cv_fold_start_time))
+        logger.debug('fold completed in {}s'.format(cv_fold_end_time - cv_fold_start_time))
+
+    cv_rmse = pd.DataFrame(cv_rmse,index=['RMSE',])
+    logger.info('CV RMSE:{}'.format(cv_rmse.mean(axis=1)[0]))
+    logger.debug('CV RMSE mean:{}'.format(cv_rmse.mean(axis=1)[0]))
+
+    sub = pd.read_csv('../../../input/sample_submit.csv',header=None)
+    sub[1] = y_preds
+    sub.to_csv('feature7_NN_CV={:.4f}.csv'.format(cv_rmse.mean(axis=1)[0]),index=False,header=False)
+
+    f = open('train_feat7_nn_train_CV.pickle', 'wb')
+    pickle.dump(cv_preds, f)
+    f.close()
+
+
+
 
 
 if __name__=='__main__':
