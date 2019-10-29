@@ -106,8 +106,10 @@ class KerasDNNRegressor:
         else:
             self.model.compile(loss="mse", optimizer=self.optimizer)
 
+        logger.info(self.model.summary())
+
         ## callback
-        early_stopping = EarlyStopping(monitor='val_loss', min_delta=0, patience=0, verbose=0, mode='auto')
+        early_stopping = EarlyStopping(monitor='val_loss', min_delta=1e-2, patience=10, verbose=0, mode='auto')
         
         cb_my = LossHistory()
 
@@ -258,10 +260,11 @@ def main():
         
         pd.DataFrame(X_trn).to_csv('train.csv')
 
-        nn=KerasDNNRegressor(epochs = 1000)
+        nn=KerasDNNRegressor(epochs = 500)
 
         logger.info('Training START')
         nn.fit(X_trn ,y_trn.values, X_val, y_val.values)
+        logger.info('Training END')
 
         del X_trn, y_trn
         y_val_pred=nn.predict(X_val)
@@ -275,16 +278,17 @@ def main():
         logger.info('{} fold RMSE:{}'.format(fold_n+1, val_rmse))
         
         logger.info('Test predict START')
-        y_pred = nn.predict(X_test)
+        y_pred = nn.predict(X_test_fold)
         y_preds += (np.exp(y_pred)-1)/FOLD
+        logger.info('Test predict END')
 
         del y_pred
 
         gc.collect()
         
         cv_fold_end_time = time()
-        logger.info('fold completed in {}s'.format(cv_fold_end_time - cv_fold_start_time))
-        logger.debug('fold completed in {}s'.format(cv_fold_end_time - cv_fold_start_time))
+        logger.info('{} fold completed in {}s'.format(fold_n+1 ,cv_fold_end_time - cv_fold_start_time))
+        logger.debug('{} fold completed in {}s'.format(fold_n+1 ,cv_fold_end_time - cv_fold_start_time))
 
     cv_rmse = pd.DataFrame(cv_rmse,index=['RMSE',])
     logger.info('CV RMSE:{}'.format(cv_rmse.mean(axis=1)[0]))
