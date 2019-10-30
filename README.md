@@ -163,4 +163,5 @@ http://ibisforest.org/index.php?%E3%83%90%E3%82%A4%E3%82%A2%E3%82%B9-%E3%83%90%E
 bestfitting氏の言葉  
 http://blog.kaggle.com/2018/05/07/profiling-top-kagglers-bestfitting-currently-1-in-the-world/
 
-##
+## ガウス過程
+ガウス過程と機械学習のページ　http://chasen.org/~daiti-m/gpbook/
