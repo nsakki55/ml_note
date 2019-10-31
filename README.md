@@ -165,3 +165,4 @@ http://blog.kaggle.com/2018/05/07/profiling-top-kagglers-bestfitting-currently-1
 
 ## ガウス過程
 ガウス過程と機械学習のページ　http://chasen.org/~daiti-m/gpbook/
+  
