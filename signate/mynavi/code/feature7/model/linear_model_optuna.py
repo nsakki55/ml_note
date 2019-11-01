@@ -1,24 +1,48 @@
-import pandas as pd 
+import pandas as pd
 import numpy as np
-from fillna_feat6 import make_data
 from IPython.display import display
-from logging import StreamHandler, DEBUG, Formatter, FileHandler, getLogger
-import os, gc, argparse, pickle
-from time import time
-from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
-from sklearn.metrics import mean_squared_error
-from sklearn.model_selection import KFold
+from sklearn.linear_model import Ridge,Lasso,ElasticNet
 from sklearn.preprocessing import StandardScaler, RobustScaler, MinMaxScaler
+from logging import StreamHandler, DEBUG, Formatter, FileHandler, getLogger
+from sklearn.model_selection import KFold
+from sklearn.metrics import mean_squared_error
+from time import time 
+import gc, pickle, os 
+from argparse import ArgumentParser
+from sklearn.model_selection import GridSearchCV
+import optuna 
+from fillna_feat6 import make_data
 
-def rmse(y_true,y_pred):
-    return np.sqrt(mean_squared_error(y_true, y_pred))
+# Ridge
+# Standard 
+#'alpha': 0.010076789091771243
+
+# Lasso
+# Standard
+# 
+
+# ElasticNet
+#{'alpha': 0.010149516670357949, 'l1_ratio': 0.010611793684857077}
+#30342.174895892553
+
+FOLD = 4
+SEED = 77
+SCALER = 'standard'
+MODEL = 'Lasso'
+
+def main():
+    
+    # optuna
+    study=optuna.create_study()
+    study.optimize(objective, n_trials=30)
+
+    # 最適解
+    print(study.best_params)
+    print(study.best_value)
+    print(study.best_trial)
 
 
-def main(args):
-    SCALER = args.scaler
-    MODEL = args.model
-    FOLD = args.fold
-    SEED = 77
+def objective(trial):
 
     train, test = make_data().load_data()
 
@@ -26,15 +50,22 @@ def main(args):
     X_train = train.drop(['id','rent_log'],axis=1)
     X_test = test.drop(['id','rent_log'],axis=1)
 
-
-    cv_rmse = {}
-    cv_preds = np.zeros(X_train.shape[0])
-    y_preds = np.zeros(X_test.shape[0])
-
     for col in X_train.select_dtypes(include = 'category').columns:
         X_train[col] = X_train[col].astype(int)
         X_test[col] = X_test[col].astype(int)
 
+    if MODEL == 'Ridge' or MODEL == 'Lasso':
+        # alpha
+        param_alpha = trial.suggest_loguniform("alpha",0.01,0.99)
+
+    elif MODEL == 'ElasticNet':
+        param_alpha=trial.suggest_loguniform("alpha",0.01,0.99)
+        param_l1ratio=trial.suggest_loguniform("l1_ratio",0.01,1.)
+
+    cv_rmse = {}
+    cv_preds = np.zeros(X_train.shape[0])
+    y_preds = np.zeros(X_test.shape[0])
+      
     kfold=KFold(n_splits=FOLD,shuffle=True,random_state=SEED)
 
     category_path = '/Users/satsuki/kaggle/signate/mynavi/code/feature6/data/feat6_category.pickle'
@@ -110,19 +141,17 @@ def main(args):
         
     # モデル作成
         if MODEL == 'Ridge':
-            reg = Ridge()
+            reg = Ridge(alpha=param_alpha)
 
         elif MODEL =='Lasso':
-            reg = Lasso()
+            reg = Lasso(alpha=param_alpha,tol=0.01)
 
         elif MODEL == 'ElasticNet':
-            reg = ElasticNet()
+            reg = ElasticNet(alpha=param_alpha,l1_ratio=param_l1ratio)
 
-        
 
-        logger.info('Training START')
+        #logger.info('Training START')
         reg.fit(X_trn ,y_trn)
-        logger.info('Training END')
 
         del X_trn, y_trn
         y_val_pred = reg.predict(X_val)
@@ -135,12 +164,12 @@ def main(args):
 
         logger.info('{} fold RMSE:{}'.format(fold_n+1, val_rmse))
         
-        logger.info('Test predict START')
-        y_pred = reg.predict(X_test_fold)
-        y_preds += (np.exp(y_pred)-1)/FOLD
-        logger.info('Test predict END')
+     #   logger.info('Test predict START')
+      #  y_pred = reg.predict(X_test_fold)
+      #  y_preds += (np.exp(y_pred)-1)/FOLD
+      #  logger.info('Test predict END')
 
-        del y_pred
+        #del y_pred
 
         gc.collect()
         
@@ -152,14 +181,12 @@ def main(args):
     logger.info('CV RMSE:{}'.format(cv_rmse.mean(axis=1)[0]))
     logger.debug('CV RMSE mean:{}'.format(cv_rmse.mean(axis=1)[0]))
 
-    sub = pd.read_csv('../../../input/sample_submit.csv',header=None)
-    sub[1] = y_preds
-    sub.to_csv('feature7_{}_CV={:.4f}.csv'.format(MODEL,cv_rmse.mean(axis=1)[0]),index=False,header=False)
+    
+    return cv_rmse.mean(axis=1)[0]
 
-    f = open('train_feat7_{{_train_CV.pickle'.format(MODEL), 'wb')
-    pickle.dump(cv_preds, f)
-    f.close()
 
+def rmse(y_true,y_pred):
+    return np.sqrt(mean_squared_error(y_true,y_pred))
 
 if __name__=='__main__':
 
@@ -185,11 +212,4 @@ if __name__=='__main__':
     logger.setLevel(DEBUG)
     logger.addHandler(handler)
 
-    parser = argparse.ArgumentParser(description='feature7 linear model (Rdige Lasso ElasticNet)')
-
-    parser.add_argument('model', help = 'Ridge, Lasso, ElasticNet')
-    parser.add_argument('scaler', help = 'standard, robust, minmax')
-    parser.add_argument('fold', type=int, help = 'fold number for cross-validation')
-    args = parser.parse_args()
-
-    main(args)
+    main()

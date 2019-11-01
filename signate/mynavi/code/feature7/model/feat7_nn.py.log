@@ -311,3 +311,9 @@
 2019-10-29 11:50:43,634 __main__ 252 [INFO][main] test shape(31262, 199) 
 2019-10-29 11:50:50,562 __main__ 265 [INFO][main] Training START 
 2019-10-29 11:50:50,674 __main__ 109 [INFO][fit] None 
+2019-11-01 17:55:41,683 __main__ 197 [INFO][main] ** Training fold 1 ** 
+2019-11-01 17:55:42,281 __main__ 250 [INFO][main] train shape(25168, 199) 
+2019-11-01 17:55:42,281 __main__ 251 [INFO][main] val shape(6293, 199) 
+2019-11-01 17:55:42,281 __main__ 252 [INFO][main] test shape(31262, 199) 
+2019-11-01 17:55:49,184 __main__ 265 [INFO][main] Training START 
+2019-11-01 17:55:49,398 __main__ 109 [INFO][fit] None 

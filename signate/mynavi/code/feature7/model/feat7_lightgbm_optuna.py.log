@@ -1,0 +1,900 @@
+2019-11-01 17:01:21,047 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:01:21,678 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:01:21,678 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:01:21,679 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:01:29,072 __main__ 165 [INFO][objective] 1 fold RMSE:20802.988945348185 
+2019-11-01 17:01:29,119 __main__ 177 [INFO][objective] 1 fold completed in 8.10812520980835s 
+2019-11-01 17:01:29,119 __main__ 178 [DEBUG][objective] 1 fold completed in 8.10812520980835s 
+2019-11-01 17:01:29,139 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:01:29,872 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:01:29,872 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:01:29,872 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:01:41,160 __main__ 165 [INFO][objective] 2 fold RMSE:17245.630236397912 
+2019-11-01 17:01:41,206 __main__ 177 [INFO][objective] 2 fold completed in 12.086191892623901s 
+2019-11-01 17:01:41,206 __main__ 178 [DEBUG][objective] 2 fold completed in 12.086191892623901s 
+2019-11-01 17:01:41,223 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:01:41,862 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:01:41,862 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:01:41,862 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:01:51,531 __main__ 165 [INFO][objective] 3 fold RMSE:12934.10461339064 
+2019-11-01 17:01:51,575 __main__ 177 [INFO][objective] 3 fold completed in 10.368034839630127s 
+2019-11-01 17:01:51,575 __main__ 178 [DEBUG][objective] 3 fold completed in 10.368034839630127s 
+2019-11-01 17:01:51,592 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:01:52,221 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:01:52,221 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:01:52,221 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:02:02,789 __main__ 165 [INFO][objective] 4 fold RMSE:17539.735158814332 
+2019-11-01 17:02:02,834 __main__ 177 [INFO][objective] 4 fold completed in 11.25792407989502s 
+2019-11-01 17:02:02,834 __main__ 178 [DEBUG][objective] 4 fold completed in 11.25792407989502s 
+2019-11-01 17:02:02,836 __main__ 181 [INFO][objective] CV RMSE:17130.614738487766 
+2019-11-01 17:02:02,836 __main__ 182 [DEBUG][objective] CV RMSE mean:17130.614738487766 
+2019-11-01 17:02:05,367 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:02:05,981 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:02:05,981 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:02:05,981 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:02:17,014 __main__ 165 [INFO][objective] 1 fold RMSE:20595.778585814238 
+2019-11-01 17:02:17,060 __main__ 177 [INFO][objective] 1 fold completed in 11.728093147277832s 
+2019-11-01 17:02:17,060 __main__ 178 [DEBUG][objective] 1 fold completed in 11.728093147277832s 
+2019-11-01 17:02:17,078 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:02:17,748 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:02:17,748 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:02:17,748 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:02:29,434 __main__ 165 [INFO][objective] 2 fold RMSE:17365.70651037461 
+2019-11-01 17:02:29,479 __main__ 177 [INFO][objective] 2 fold completed in 12.418594121932983s 
+2019-11-01 17:02:29,479 __main__ 178 [DEBUG][objective] 2 fold completed in 12.418594121932983s 
+2019-11-01 17:02:29,497 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:02:30,158 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:02:30,159 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:02:30,159 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:02:42,144 __main__ 165 [INFO][objective] 3 fold RMSE:12813.351812944504 
+2019-11-01 17:02:42,190 __main__ 177 [INFO][objective] 3 fold completed in 12.709654092788696s 
+2019-11-01 17:02:42,190 __main__ 178 [DEBUG][objective] 3 fold completed in 12.709654092788696s 
+2019-11-01 17:02:42,208 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:02:42,887 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:02:42,887 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:02:42,888 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:02:53,955 __main__ 165 [INFO][objective] 4 fold RMSE:17371.913633130196 
+2019-11-01 17:02:54,009 __main__ 177 [INFO][objective] 4 fold completed in 11.818880081176758s 
+2019-11-01 17:02:54,009 __main__ 178 [DEBUG][objective] 4 fold completed in 11.818880081176758s 
+2019-11-01 17:02:54,012 __main__ 181 [INFO][objective] CV RMSE:17036.687635565886 
+2019-11-01 17:02:54,012 __main__ 182 [DEBUG][objective] CV RMSE mean:17036.687635565886 
+2019-11-01 17:02:56,802 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:02:57,445 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:02:57,445 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:02:57,445 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:03:10,317 __main__ 165 [INFO][objective] 1 fold RMSE:19514.79651222052 
+2019-11-01 17:03:10,364 __main__ 177 [INFO][objective] 1 fold completed in 13.596388101577759s 
+2019-11-01 17:03:10,364 __main__ 178 [DEBUG][objective] 1 fold completed in 13.596388101577759s 
+2019-11-01 17:03:10,384 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:03:11,072 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:03:11,072 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:03:11,072 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:03:21,416 __main__ 165 [INFO][objective] 2 fold RMSE:17312.392007913182 
+2019-11-01 17:03:21,460 __main__ 177 [INFO][objective] 2 fold completed in 11.09571099281311s 
+2019-11-01 17:03:21,460 __main__ 178 [DEBUG][objective] 2 fold completed in 11.09571099281311s 
+2019-11-01 17:03:21,480 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:03:22,216 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:03:22,217 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:03:22,217 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:03:37,553 __main__ 165 [INFO][objective] 3 fold RMSE:13296.69694330233 
+2019-11-01 17:03:37,606 __main__ 177 [INFO][objective] 3 fold completed in 16.144582986831665s 
+2019-11-01 17:03:37,606 __main__ 178 [DEBUG][objective] 3 fold completed in 16.144582986831665s 
+2019-11-01 17:03:37,631 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:03:38,386 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:03:38,386 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:03:38,386 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:03:47,841 __main__ 165 [INFO][objective] 4 fold RMSE:18036.663970132915 
+2019-11-01 17:03:47,893 __main__ 177 [INFO][objective] 4 fold completed in 10.286411046981812s 
+2019-11-01 17:03:47,893 __main__ 178 [DEBUG][objective] 4 fold completed in 10.286411046981812s 
+2019-11-01 17:03:47,895 __main__ 181 [INFO][objective] CV RMSE:17040.137358392236 
+2019-11-01 17:03:47,896 __main__ 182 [DEBUG][objective] CV RMSE mean:17040.137358392236 
+2019-11-01 17:03:50,792 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:03:51,490 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:03:51,490 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:03:51,491 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:04:08,172 __main__ 165 [INFO][objective] 1 fold RMSE:20727.2648794966 
+2019-11-01 17:04:08,221 __main__ 177 [INFO][objective] 1 fold completed in 17.468456029891968s 
+2019-11-01 17:04:08,222 __main__ 178 [DEBUG][objective] 1 fold completed in 17.468456029891968s 
+2019-11-01 17:04:08,241 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:04:08,961 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:04:08,961 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:04:08,961 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:04:21,201 __main__ 165 [INFO][objective] 2 fold RMSE:16940.338261950204 
+2019-11-01 17:04:21,251 __main__ 177 [INFO][objective] 2 fold completed in 13.028618812561035s 
+2019-11-01 17:04:21,251 __main__ 178 [DEBUG][objective] 2 fold completed in 13.028618812561035s 
+2019-11-01 17:04:21,269 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:04:22,024 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:04:22,024 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:04:22,024 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:04:31,236 __main__ 165 [INFO][objective] 3 fold RMSE:13242.86618525022 
+2019-11-01 17:04:31,280 __main__ 177 [INFO][objective] 3 fold completed in 10.028790950775146s 
+2019-11-01 17:04:31,281 __main__ 178 [DEBUG][objective] 3 fold completed in 10.028790950775146s 
+2019-11-01 17:04:31,302 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:04:32,064 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:04:32,064 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:04:32,064 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:04:45,628 __main__ 165 [INFO][objective] 4 fold RMSE:17615.299161787294 
+2019-11-01 17:04:45,679 __main__ 177 [INFO][objective] 4 fold completed in 14.397318840026855s 
+2019-11-01 17:04:45,679 __main__ 178 [DEBUG][objective] 4 fold completed in 14.397318840026855s 
+2019-11-01 17:04:45,681 __main__ 181 [INFO][objective] CV RMSE:17131.44212212108 
+2019-11-01 17:04:45,681 __main__ 182 [DEBUG][objective] CV RMSE mean:17131.44212212108 
+2019-11-01 17:04:48,684 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:04:49,424 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:04:49,424 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:04:49,424 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:05:01,162 __main__ 165 [INFO][objective] 1 fold RMSE:20652.635714409895 
+2019-11-01 17:05:01,213 __main__ 177 [INFO][objective] 1 fold completed in 12.569624185562134s 
+2019-11-01 17:05:01,213 __main__ 178 [DEBUG][objective] 1 fold completed in 12.569624185562134s 
+2019-11-01 17:05:01,233 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:05:01,933 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:05:01,933 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:05:01,933 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:05:08,673 __main__ 165 [INFO][objective] 2 fold RMSE:16800.624353929525 
+2019-11-01 17:05:08,724 __main__ 177 [INFO][objective] 2 fold completed in 7.510329008102417s 
+2019-11-01 17:05:08,724 __main__ 178 [DEBUG][objective] 2 fold completed in 7.510329008102417s 
+2019-11-01 17:05:08,745 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:05:09,406 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:05:09,406 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:05:09,406 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:05:21,883 __main__ 165 [INFO][objective] 3 fold RMSE:13037.227431972407 
+2019-11-01 17:05:21,927 __main__ 177 [INFO][objective] 3 fold completed in 13.20222520828247s 
+2019-11-01 17:05:21,927 __main__ 178 [DEBUG][objective] 3 fold completed in 13.20222520828247s 
+2019-11-01 17:05:21,946 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:05:22,727 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:05:22,727 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:05:22,727 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:05:34,684 __main__ 165 [INFO][objective] 4 fold RMSE:16968.704760863184 
+2019-11-01 17:05:34,737 __main__ 177 [INFO][objective] 4 fold completed in 12.809633016586304s 
+2019-11-01 17:05:34,738 __main__ 178 [DEBUG][objective] 4 fold completed in 12.809633016586304s 
+2019-11-01 17:05:34,739 __main__ 181 [INFO][objective] CV RMSE:16864.798065293755 
+2019-11-01 17:05:34,740 __main__ 182 [DEBUG][objective] CV RMSE mean:16864.798065293755 
+2019-11-01 17:05:37,546 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:05:38,315 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:05:38,315 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:05:38,316 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:05:55,978 __main__ 165 [INFO][objective] 1 fold RMSE:20248.11513453096 
+2019-11-01 17:05:56,023 __main__ 177 [INFO][objective] 1 fold completed in 18.516635179519653s 
+2019-11-01 17:05:56,024 __main__ 178 [DEBUG][objective] 1 fold completed in 18.516635179519653s 
+2019-11-01 17:05:56,041 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:05:56,724 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:05:56,724 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:05:56,724 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:06:05,428 __main__ 165 [INFO][objective] 2 fold RMSE:17242.050619790967 
+2019-11-01 17:06:05,480 __main__ 177 [INFO][objective] 2 fold completed in 9.455848932266235s 
+2019-11-01 17:06:05,480 __main__ 178 [DEBUG][objective] 2 fold completed in 9.455848932266235s 
+2019-11-01 17:06:05,504 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:06:06,241 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:06:06,241 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:06:06,241 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:06:17,319 __main__ 165 [INFO][objective] 3 fold RMSE:12892.762378857793 
+2019-11-01 17:06:17,370 __main__ 177 [INFO][objective] 3 fold completed in 11.889105796813965s 
+2019-11-01 17:06:17,370 __main__ 178 [DEBUG][objective] 3 fold completed in 11.889105796813965s 
+2019-11-01 17:06:17,392 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:06:18,124 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:06:18,124 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:06:18,125 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:06:34,983 __main__ 165 [INFO][objective] 4 fold RMSE:16620.1751075086 
+2019-11-01 17:06:35,035 __main__ 177 [INFO][objective] 4 fold completed in 17.663978099822998s 
+2019-11-01 17:06:35,035 __main__ 178 [DEBUG][objective] 4 fold completed in 17.663978099822998s 
+2019-11-01 17:06:35,037 __main__ 181 [INFO][objective] CV RMSE:16750.77581017208 
+2019-11-01 17:06:35,037 __main__ 182 [DEBUG][objective] CV RMSE mean:16750.77581017208 
+2019-11-01 17:06:38,120 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:06:38,886 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:06:38,887 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:06:38,887 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:06:48,649 __main__ 165 [INFO][objective] 1 fold RMSE:20918.996587337737 
+2019-11-01 17:06:48,706 __main__ 177 [INFO][objective] 1 fold completed in 10.63019323348999s 
+2019-11-01 17:06:48,706 __main__ 178 [DEBUG][objective] 1 fold completed in 10.63019323348999s 
+2019-11-01 17:06:48,727 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:06:49,459 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:06:49,459 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:06:49,459 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:07:01,645 __main__ 165 [INFO][objective] 2 fold RMSE:17080.839336822643 
+2019-11-01 17:07:01,695 __main__ 177 [INFO][objective] 2 fold completed in 12.9881911277771s 
+2019-11-01 17:07:01,695 __main__ 178 [DEBUG][objective] 2 fold completed in 12.9881911277771s 
+2019-11-01 17:07:01,718 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:07:02,408 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:07:02,408 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:07:02,408 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:07:15,047 __main__ 165 [INFO][objective] 3 fold RMSE:13223.293970590208 
+2019-11-01 17:07:15,097 __main__ 177 [INFO][objective] 3 fold completed in 13.40117597579956s 
+2019-11-01 17:07:15,097 __main__ 178 [DEBUG][objective] 3 fold completed in 13.40117597579956s 
+2019-11-01 17:07:15,117 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:07:15,840 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:07:15,840 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:07:15,840 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:07:24,638 __main__ 165 [INFO][objective] 4 fold RMSE:17558.304537303145 
+2019-11-01 17:07:24,685 __main__ 177 [INFO][objective] 4 fold completed in 9.587757110595703s 
+2019-11-01 17:07:24,686 __main__ 178 [DEBUG][objective] 4 fold completed in 9.587757110595703s 
+2019-11-01 17:07:24,688 __main__ 181 [INFO][objective] CV RMSE:17195.358608013434 
+2019-11-01 17:07:24,688 __main__ 182 [DEBUG][objective] CV RMSE mean:17195.358608013434 
+2019-11-01 17:07:27,656 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:07:28,429 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:07:28,429 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:07:28,429 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:07:43,067 __main__ 165 [INFO][objective] 1 fold RMSE:20567.3580062099 
+2019-11-01 17:07:43,120 __main__ 177 [INFO][objective] 1 fold completed in 15.504388809204102s 
+2019-11-01 17:07:43,120 __main__ 178 [DEBUG][objective] 1 fold completed in 15.504388809204102s 
+2019-11-01 17:07:43,141 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:07:43,921 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:07:43,922 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:07:43,922 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:07:55,659 __main__ 165 [INFO][objective] 2 fold RMSE:17177.871778420576 
+2019-11-01 17:07:55,708 __main__ 177 [INFO][objective] 2 fold completed in 12.587008953094482s 
+2019-11-01 17:07:55,708 __main__ 178 [DEBUG][objective] 2 fold completed in 12.587008953094482s 
+2019-11-01 17:07:55,730 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:07:56,451 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:07:56,451 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:07:56,451 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:08:09,203 __main__ 165 [INFO][objective] 3 fold RMSE:13632.578731081072 
+2019-11-01 17:08:09,255 __main__ 177 [INFO][objective] 3 fold completed in 13.545748233795166s 
+2019-11-01 17:08:09,255 __main__ 178 [DEBUG][objective] 3 fold completed in 13.545748233795166s 
+2019-11-01 17:08:09,275 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:08:10,002 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:08:10,002 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:08:10,002 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:08:18,397 __main__ 165 [INFO][objective] 4 fold RMSE:17204.889144406225 
+2019-11-01 17:08:18,449 __main__ 177 [INFO][objective] 4 fold completed in 9.193204879760742s 
+2019-11-01 17:08:18,449 __main__ 178 [DEBUG][objective] 4 fold completed in 9.193204879760742s 
+2019-11-01 17:08:18,451 __main__ 181 [INFO][objective] CV RMSE:17145.67441502944 
+2019-11-01 17:08:18,451 __main__ 182 [DEBUG][objective] CV RMSE mean:17145.67441502944 
+2019-11-01 17:08:21,350 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:08:22,037 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:08:22,037 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:08:22,038 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:08:36,767 __main__ 165 [INFO][objective] 1 fold RMSE:20248.11513453096 
+2019-11-01 17:08:36,820 __main__ 177 [INFO][objective] 1 fold completed in 15.508450031280518s 
+2019-11-01 17:08:36,820 __main__ 178 [DEBUG][objective] 1 fold completed in 15.508450031280518s 
+2019-11-01 17:08:36,841 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:08:37,540 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:08:37,541 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:08:37,541 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:08:43,953 __main__ 165 [INFO][objective] 2 fold RMSE:17242.050619790967 
+2019-11-01 17:08:44,003 __main__ 177 [INFO][objective] 2 fold completed in 7.181981801986694s 
+2019-11-01 17:08:44,003 __main__ 178 [DEBUG][objective] 2 fold completed in 7.181981801986694s 
+2019-11-01 17:08:44,024 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:08:44,696 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:08:44,696 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:08:44,696 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:08:53,481 __main__ 165 [INFO][objective] 3 fold RMSE:12892.762378857793 
+2019-11-01 17:08:53,532 __main__ 177 [INFO][objective] 3 fold completed in 9.528614282608032s 
+2019-11-01 17:08:53,532 __main__ 178 [DEBUG][objective] 3 fold completed in 9.528614282608032s 
+2019-11-01 17:08:53,553 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:08:54,218 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:08:54,218 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:08:54,219 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:09:04,599 __main__ 165 [INFO][objective] 4 fold RMSE:16620.1751075086 
+2019-11-01 17:09:04,650 __main__ 177 [INFO][objective] 4 fold completed in 11.1177077293396s 
+2019-11-01 17:09:04,651 __main__ 178 [DEBUG][objective] 4 fold completed in 11.1177077293396s 
+2019-11-01 17:09:04,653 __main__ 181 [INFO][objective] CV RMSE:16750.77581017208 
+2019-11-01 17:09:04,653 __main__ 182 [DEBUG][objective] CV RMSE mean:16750.77581017208 
+2019-11-01 17:09:07,485 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:09:08,167 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:09:08,167 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:09:08,167 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:09:21,230 __main__ 165 [INFO][objective] 1 fold RMSE:21084.7893917982 
+2019-11-01 17:09:21,282 __main__ 177 [INFO][objective] 1 fold completed in 13.836262941360474s 
+2019-11-01 17:09:21,282 __main__ 178 [DEBUG][objective] 1 fold completed in 13.836262941360474s 
+2019-11-01 17:09:21,301 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:09:21,991 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:09:21,991 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:09:21,991 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:09:36,108 __main__ 165 [INFO][objective] 2 fold RMSE:16707.24077237013 
+2019-11-01 17:09:36,161 __main__ 177 [INFO][objective] 2 fold completed in 14.87794303894043s 
+2019-11-01 17:09:36,161 __main__ 178 [DEBUG][objective] 2 fold completed in 14.87794303894043s 
+2019-11-01 17:09:36,181 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:09:36,882 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:09:36,883 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:09:36,883 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:09:49,116 __main__ 165 [INFO][objective] 3 fold RMSE:12851.940189101033 
+2019-11-01 17:09:49,169 __main__ 177 [INFO][objective] 3 fold completed in 13.007182121276855s 
+2019-11-01 17:09:49,169 __main__ 178 [DEBUG][objective] 3 fold completed in 13.007182121276855s 
+2019-11-01 17:09:49,189 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:09:49,880 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:09:49,881 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:09:49,881 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:09:59,348 __main__ 165 [INFO][objective] 4 fold RMSE:17409.17781195071 
+2019-11-01 17:09:59,399 __main__ 177 [INFO][objective] 4 fold completed in 10.229557037353516s 
+2019-11-01 17:09:59,399 __main__ 178 [DEBUG][objective] 4 fold completed in 10.229557037353516s 
+2019-11-01 17:09:59,401 __main__ 181 [INFO][objective] CV RMSE:17013.28704130502 
+2019-11-01 17:09:59,402 __main__ 182 [DEBUG][objective] CV RMSE mean:17013.28704130502 
+2019-11-01 17:10:02,156 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:10:02,832 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:10:02,832 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:10:02,832 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:10:11,077 __main__ 165 [INFO][objective] 1 fold RMSE:20327.357741350163 
+2019-11-01 17:10:11,128 __main__ 177 [INFO][objective] 1 fold completed in 9.011941909790039s 
+2019-11-01 17:10:11,129 __main__ 178 [DEBUG][objective] 1 fold completed in 9.011941909790039s 
+2019-11-01 17:10:11,149 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:10:11,840 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:10:11,841 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:10:11,841 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:10:18,235 __main__ 165 [INFO][objective] 2 fold RMSE:16810.1187644913 
+2019-11-01 17:10:18,285 __main__ 177 [INFO][objective] 2 fold completed in 7.1561009883880615s 
+2019-11-01 17:10:18,286 __main__ 178 [DEBUG][objective] 2 fold completed in 7.1561009883880615s 
+2019-11-01 17:10:18,304 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:10:18,955 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:10:18,955 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:10:18,955 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:10:28,576 __main__ 165 [INFO][objective] 3 fold RMSE:12980.144276103409 
+2019-11-01 17:10:28,627 __main__ 177 [INFO][objective] 3 fold completed in 10.34061884880066s 
+2019-11-01 17:10:28,627 __main__ 178 [DEBUG][objective] 3 fold completed in 10.34061884880066s 
+2019-11-01 17:10:28,643 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:10:29,294 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:10:29,294 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:10:29,294 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:10:39,751 __main__ 165 [INFO][objective] 4 fold RMSE:16867.282541836343 
+2019-11-01 17:10:39,804 __main__ 177 [INFO][objective] 4 fold completed in 11.175988912582397s 
+2019-11-01 17:10:39,804 __main__ 178 [DEBUG][objective] 4 fold completed in 11.175988912582397s 
+2019-11-01 17:10:39,806 __main__ 181 [INFO][objective] CV RMSE:16746.225830945303 
+2019-11-01 17:10:39,806 __main__ 182 [DEBUG][objective] CV RMSE mean:16746.225830945303 
+2019-11-01 17:10:42,550 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:10:43,228 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:10:43,228 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:10:43,228 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:10:55,420 __main__ 165 [INFO][objective] 1 fold RMSE:20439.94831007569 
+2019-11-01 17:10:55,472 __main__ 177 [INFO][objective] 1 fold completed in 12.959755897521973s 
+2019-11-01 17:10:55,472 __main__ 178 [DEBUG][objective] 1 fold completed in 12.959755897521973s 
+2019-11-01 17:10:55,493 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:10:56,183 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:10:56,183 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:10:56,183 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:11:11,637 __main__ 165 [INFO][objective] 2 fold RMSE:16751.57445369562 
+2019-11-01 17:11:11,690 __main__ 177 [INFO][objective] 2 fold completed in 16.21685290336609s 
+2019-11-01 17:11:11,690 __main__ 178 [DEBUG][objective] 2 fold completed in 16.21685290336609s 
+2019-11-01 17:11:11,710 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:11:12,413 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:11:12,413 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:11:12,413 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:11:24,706 __main__ 165 [INFO][objective] 3 fold RMSE:12597.087619789976 
+2019-11-01 17:11:24,752 __main__ 177 [INFO][objective] 3 fold completed in 13.06156587600708s 
+2019-11-01 17:11:24,752 __main__ 178 [DEBUG][objective] 3 fold completed in 13.06156587600708s 
+2019-11-01 17:11:24,772 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:11:25,541 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:11:25,541 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:11:25,541 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:11:46,985 __main__ 165 [INFO][objective] 4 fold RMSE:17050.31366623075 
+2019-11-01 17:11:47,035 __main__ 177 [INFO][objective] 4 fold completed in 22.282405138015747s 
+2019-11-01 17:11:47,035 __main__ 178 [DEBUG][objective] 4 fold completed in 22.282405138015747s 
+2019-11-01 17:11:47,037 __main__ 181 [INFO][objective] CV RMSE:16709.73101244801 
+2019-11-01 17:11:47,038 __main__ 182 [DEBUG][objective] CV RMSE mean:16709.73101244801 
+2019-11-01 17:11:49,822 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:11:50,486 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:11:50,486 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:11:50,486 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:12:03,917 __main__ 165 [INFO][objective] 1 fold RMSE:20439.94831007569 
+2019-11-01 17:12:03,968 __main__ 177 [INFO][objective] 1 fold completed in 14.184782028198242s 
+2019-11-01 17:12:03,968 __main__ 178 [DEBUG][objective] 1 fold completed in 14.184782028198242s 
+2019-11-01 17:12:03,989 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:12:04,682 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:12:04,682 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:12:04,682 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:12:20,219 __main__ 165 [INFO][objective] 2 fold RMSE:16751.57445369562 
+2019-11-01 17:12:20,270 __main__ 177 [INFO][objective] 2 fold completed in 16.30060124397278s 
+2019-11-01 17:12:20,270 __main__ 178 [DEBUG][objective] 2 fold completed in 16.30060124397278s 
+2019-11-01 17:12:20,289 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:12:20,980 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:12:20,980 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:12:20,980 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:12:39,216 __main__ 165 [INFO][objective] 3 fold RMSE:12597.087619789976 
+2019-11-01 17:12:39,271 __main__ 177 [INFO][objective] 3 fold completed in 19.000627994537354s 
+2019-11-01 17:12:39,271 __main__ 178 [DEBUG][objective] 3 fold completed in 19.000627994537354s 
+2019-11-01 17:12:39,293 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:12:40,062 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:12:40,062 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:12:40,062 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:13:00,309 __main__ 165 [INFO][objective] 4 fold RMSE:17050.31366623075 
+2019-11-01 17:13:00,358 __main__ 177 [INFO][objective] 4 fold completed in 21.085878133773804s 
+2019-11-01 17:13:00,358 __main__ 178 [DEBUG][objective] 4 fold completed in 21.085878133773804s 
+2019-11-01 17:13:00,360 __main__ 181 [INFO][objective] CV RMSE:16709.73101244801 
+2019-11-01 17:13:00,361 __main__ 182 [DEBUG][objective] CV RMSE mean:16709.73101244801 
+2019-11-01 17:13:03,371 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:13:04,089 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:13:04,090 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:13:04,090 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:13:13,351 __main__ 165 [INFO][objective] 1 fold RMSE:20327.357741350163 
+2019-11-01 17:13:13,396 __main__ 177 [INFO][objective] 1 fold completed in 10.064356803894043s 
+2019-11-01 17:13:13,396 __main__ 178 [DEBUG][objective] 1 fold completed in 10.064356803894043s 
+2019-11-01 17:13:13,414 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:13:14,125 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:13:14,125 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:13:14,125 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:13:20,738 __main__ 165 [INFO][objective] 2 fold RMSE:16810.1187644913 
+2019-11-01 17:13:20,787 __main__ 177 [INFO][objective] 2 fold completed in 7.390459299087524s 
+2019-11-01 17:13:20,787 __main__ 178 [DEBUG][objective] 2 fold completed in 7.390459299087524s 
+2019-11-01 17:13:20,805 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:13:21,542 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:13:21,542 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:13:21,542 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:13:32,185 __main__ 165 [INFO][objective] 3 fold RMSE:12980.144276103409 
+2019-11-01 17:13:32,234 __main__ 177 [INFO][objective] 3 fold completed in 11.445856094360352s 
+2019-11-01 17:13:32,234 __main__ 178 [DEBUG][objective] 3 fold completed in 11.445856094360352s 
+2019-11-01 17:13:32,254 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:13:32,941 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:13:32,941 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:13:32,941 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:13:43,937 __main__ 165 [INFO][objective] 4 fold RMSE:16867.282541836343 
+2019-11-01 17:13:43,988 __main__ 177 [INFO][objective] 4 fold completed in 11.752942085266113s 
+2019-11-01 17:13:43,988 __main__ 178 [DEBUG][objective] 4 fold completed in 11.752942085266113s 
+2019-11-01 17:13:43,990 __main__ 181 [INFO][objective] CV RMSE:16746.225830945303 
+2019-11-01 17:13:43,991 __main__ 182 [DEBUG][objective] CV RMSE mean:16746.225830945303 
+2019-11-01 17:13:46,851 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:13:47,547 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:13:47,547 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:13:47,547 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:13:56,246 __main__ 165 [INFO][objective] 1 fold RMSE:20327.357741350163 
+2019-11-01 17:13:56,296 __main__ 177 [INFO][objective] 1 fold completed in 9.483808040618896s 
+2019-11-01 17:13:56,296 __main__ 178 [DEBUG][objective] 1 fold completed in 9.483808040618896s 
+2019-11-01 17:13:56,315 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:13:56,990 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:13:56,990 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:13:56,990 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:14:03,488 __main__ 165 [INFO][objective] 2 fold RMSE:16810.1187644913 
+2019-11-01 17:14:03,540 __main__ 177 [INFO][objective] 2 fold completed in 7.243106126785278s 
+2019-11-01 17:14:03,540 __main__ 178 [DEBUG][objective] 2 fold completed in 7.243106126785278s 
+2019-11-01 17:14:03,561 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:14:04,231 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:14:04,231 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:14:04,231 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:14:13,971 __main__ 165 [INFO][objective] 3 fold RMSE:12980.144276103409 
+2019-11-01 17:14:14,022 __main__ 177 [INFO][objective] 3 fold completed in 10.481519937515259s 
+2019-11-01 17:14:14,022 __main__ 178 [DEBUG][objective] 3 fold completed in 10.481519937515259s 
+2019-11-01 17:14:14,042 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:14:14,715 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:14:14,715 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:14:14,715 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:14:25,548 __main__ 165 [INFO][objective] 4 fold RMSE:16867.282541836343 
+2019-11-01 17:14:25,597 __main__ 177 [INFO][objective] 4 fold completed in 11.574589014053345s 
+2019-11-01 17:14:25,598 __main__ 178 [DEBUG][objective] 4 fold completed in 11.574589014053345s 
+2019-11-01 17:14:25,599 __main__ 181 [INFO][objective] CV RMSE:16746.225830945303 
+2019-11-01 17:14:25,600 __main__ 182 [DEBUG][objective] CV RMSE mean:16746.225830945303 
+2019-11-01 17:14:28,340 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:14:29,026 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:14:29,026 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:14:29,026 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:14:38,574 __main__ 165 [INFO][objective] 1 fold RMSE:20652.635714409895 
+2019-11-01 17:14:38,623 __main__ 177 [INFO][objective] 1 fold completed in 10.321388721466064s 
+2019-11-01 17:14:38,624 __main__ 178 [DEBUG][objective] 1 fold completed in 10.321388721466064s 
+2019-11-01 17:14:38,644 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:14:39,327 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:14:39,327 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:14:39,327 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:14:45,805 __main__ 165 [INFO][objective] 2 fold RMSE:16800.624353929525 
+2019-11-01 17:14:45,854 __main__ 177 [INFO][objective] 2 fold completed in 7.2298359870910645s 
+2019-11-01 17:14:45,854 __main__ 178 [DEBUG][objective] 2 fold completed in 7.2298359870910645s 
+2019-11-01 17:14:45,875 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:14:46,547 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:14:46,547 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:14:46,547 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:14:56,642 __main__ 165 [INFO][objective] 3 fold RMSE:13037.227431972407 
+2019-11-01 17:14:56,691 __main__ 177 [INFO][objective] 3 fold completed in 10.836408138275146s 
+2019-11-01 17:14:56,691 __main__ 178 [DEBUG][objective] 3 fold completed in 10.836408138275146s 
+2019-11-01 17:14:56,711 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:14:57,401 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:14:57,401 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:14:57,401 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:15:07,508 __main__ 165 [INFO][objective] 4 fold RMSE:16968.704760863184 
+2019-11-01 17:15:07,561 __main__ 177 [INFO][objective] 4 fold completed in 10.868896961212158s 
+2019-11-01 17:15:07,561 __main__ 178 [DEBUG][objective] 4 fold completed in 10.868896961212158s 
+2019-11-01 17:15:07,563 __main__ 181 [INFO][objective] CV RMSE:16864.798065293755 
+2019-11-01 17:15:07,564 __main__ 182 [DEBUG][objective] CV RMSE mean:16864.798065293755 
+2019-11-01 17:15:10,295 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:15:10,971 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:15:10,971 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:15:10,971 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:15:24,840 __main__ 165 [INFO][objective] 1 fold RMSE:20876.21173926864 
+2019-11-01 17:15:24,891 __main__ 177 [INFO][objective] 1 fold completed in 14.633915901184082s 
+2019-11-01 17:15:24,891 __main__ 178 [DEBUG][objective] 1 fold completed in 14.633915901184082s 
+2019-11-01 17:15:24,914 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:15:25,597 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:15:25,598 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:15:25,598 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:15:35,194 __main__ 165 [INFO][objective] 2 fold RMSE:16749.080649840358 
+2019-11-01 17:15:35,244 __main__ 177 [INFO][objective] 2 fold completed in 10.35211706161499s 
+2019-11-01 17:15:35,244 __main__ 178 [DEBUG][objective] 2 fold completed in 10.35211706161499s 
+2019-11-01 17:15:35,264 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:15:35,933 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:15:35,933 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:15:35,933 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:15:45,184 __main__ 165 [INFO][objective] 3 fold RMSE:12832.989452288033 
+2019-11-01 17:15:45,234 __main__ 177 [INFO][objective] 3 fold completed in 9.989031076431274s 
+2019-11-01 17:15:45,234 __main__ 178 [DEBUG][objective] 3 fold completed in 9.989031076431274s 
+2019-11-01 17:15:45,251 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:15:45,927 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:15:45,927 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:15:45,927 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:15:55,197 __main__ 165 [INFO][objective] 4 fold RMSE:16822.31759747037 
+2019-11-01 17:15:55,248 __main__ 177 [INFO][objective] 4 fold completed in 10.012661933898926s 
+2019-11-01 17:15:55,248 __main__ 178 [DEBUG][objective] 4 fold completed in 10.012661933898926s 
+2019-11-01 17:15:55,250 __main__ 181 [INFO][objective] CV RMSE:16820.149859716854 
+2019-11-01 17:15:55,250 __main__ 182 [DEBUG][objective] CV RMSE mean:16820.149859716854 
+2019-11-01 17:15:58,079 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:15:58,777 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:15:58,777 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:15:58,777 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:16:09,784 __main__ 165 [INFO][objective] 1 fold RMSE:20330.729378689324 
+2019-11-01 17:16:09,838 __main__ 177 [INFO][objective] 1 fold completed in 11.79756212234497s 
+2019-11-01 17:16:09,838 __main__ 178 [DEBUG][objective] 1 fold completed in 11.79756212234497s 
+2019-11-01 17:16:09,860 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:16:10,558 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:16:10,558 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:16:10,558 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:16:18,374 __main__ 165 [INFO][objective] 2 fold RMSE:16882.48607742041 
+2019-11-01 17:16:18,422 __main__ 177 [INFO][objective] 2 fold completed in 8.58321499824524s 
+2019-11-01 17:16:18,422 __main__ 178 [DEBUG][objective] 2 fold completed in 8.58321499824524s 
+2019-11-01 17:16:18,440 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:16:19,091 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:16:19,091 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:16:19,091 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:16:32,497 __main__ 165 [INFO][objective] 3 fold RMSE:12835.040764170479 
+2019-11-01 17:16:32,548 __main__ 177 [INFO][objective] 3 fold completed in 14.12500810623169s 
+2019-11-01 17:16:32,548 __main__ 178 [DEBUG][objective] 3 fold completed in 14.12500810623169s 
+2019-11-01 17:16:32,568 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:16:33,237 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:16:33,237 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:16:33,237 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:16:42,471 __main__ 165 [INFO][objective] 4 fold RMSE:17711.064126960267 
+2019-11-01 17:16:42,520 __main__ 177 [INFO][objective] 4 fold completed in 9.97182297706604s 
+2019-11-01 17:16:42,520 __main__ 178 [DEBUG][objective] 4 fold completed in 9.97182297706604s 
+2019-11-01 17:16:42,522 __main__ 181 [INFO][objective] CV RMSE:16939.83008681012 
+2019-11-01 17:16:42,523 __main__ 182 [DEBUG][objective] CV RMSE mean:16939.83008681012 
+2019-11-01 17:16:45,295 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:16:45,978 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:16:45,978 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:16:45,978 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:16:56,778 __main__ 165 [INFO][objective] 1 fold RMSE:20327.357741350163 
+2019-11-01 17:16:56,830 __main__ 177 [INFO][objective] 1 fold completed in 11.572726011276245s 
+2019-11-01 17:16:56,830 __main__ 178 [DEBUG][objective] 1 fold completed in 11.572726011276245s 
+2019-11-01 17:16:56,848 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:16:57,571 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:16:57,571 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:16:57,571 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:17:04,161 __main__ 165 [INFO][objective] 2 fold RMSE:16810.1187644913 
+2019-11-01 17:17:04,213 __main__ 177 [INFO][objective] 2 fold completed in 7.382071018218994s 
+2019-11-01 17:17:04,213 __main__ 178 [DEBUG][objective] 2 fold completed in 7.382071018218994s 
+2019-11-01 17:17:04,234 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:17:04,888 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:17:04,888 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:17:04,889 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:17:18,420 __main__ 165 [INFO][objective] 3 fold RMSE:12980.144276103409 
+2019-11-01 17:17:18,471 __main__ 177 [INFO][objective] 3 fold completed in 14.257436037063599s 
+2019-11-01 17:17:18,471 __main__ 178 [DEBUG][objective] 3 fold completed in 14.257436037063599s 
+2019-11-01 17:17:18,488 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:17:19,175 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:17:19,175 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:17:19,175 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:17:30,122 __main__ 165 [INFO][objective] 4 fold RMSE:16867.282541836343 
+2019-11-01 17:17:30,184 __main__ 177 [INFO][objective] 4 fold completed in 11.711694955825806s 
+2019-11-01 17:17:30,184 __main__ 178 [DEBUG][objective] 4 fold completed in 11.711694955825806s 
+2019-11-01 17:17:30,186 __main__ 181 [INFO][objective] CV RMSE:16746.225830945303 
+2019-11-01 17:17:30,187 __main__ 182 [DEBUG][objective] CV RMSE mean:16746.225830945303 
+2019-11-01 17:17:33,288 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:17:34,026 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:17:34,026 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:17:34,026 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:17:48,861 __main__ 165 [INFO][objective] 1 fold RMSE:20876.21173926864 
+2019-11-01 17:17:48,911 __main__ 177 [INFO][objective] 1 fold completed in 15.664259195327759s 
+2019-11-01 17:17:48,911 __main__ 178 [DEBUG][objective] 1 fold completed in 15.664259195327759s 
+2019-11-01 17:17:48,931 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:17:49,603 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:17:49,603 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:17:49,603 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:18:00,716 __main__ 165 [INFO][objective] 2 fold RMSE:16749.080649840358 
+2019-11-01 17:18:00,759 __main__ 177 [INFO][objective] 2 fold completed in 11.846885919570923s 
+2019-11-01 17:18:00,759 __main__ 178 [DEBUG][objective] 2 fold completed in 11.846885919570923s 
+2019-11-01 17:18:00,776 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:18:01,462 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:18:01,462 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:18:01,462 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:18:11,882 __main__ 165 [INFO][objective] 3 fold RMSE:12832.989452288033 
+2019-11-01 17:18:11,933 __main__ 177 [INFO][objective] 3 fold completed in 11.174057006835938s 
+2019-11-01 17:18:11,934 __main__ 178 [DEBUG][objective] 3 fold completed in 11.174057006835938s 
+2019-11-01 17:18:11,953 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:18:12,639 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:18:12,639 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:18:12,639 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:18:22,076 __main__ 165 [INFO][objective] 4 fold RMSE:16822.31759747037 
+2019-11-01 17:18:22,124 __main__ 177 [INFO][objective] 4 fold completed in 10.190064191818237s 
+2019-11-01 17:18:22,124 __main__ 178 [DEBUG][objective] 4 fold completed in 10.190064191818237s 
+2019-11-01 17:18:22,126 __main__ 181 [INFO][objective] CV RMSE:16820.149859716854 
+2019-11-01 17:18:22,127 __main__ 182 [DEBUG][objective] CV RMSE mean:16820.149859716854 
+2019-11-01 17:18:24,963 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:18:25,674 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:18:25,674 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:18:25,674 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:18:36,457 __main__ 165 [INFO][objective] 1 fold RMSE:20166.151395408855 
+2019-11-01 17:18:36,507 __main__ 177 [INFO][objective] 1 fold completed in 11.583434343338013s 
+2019-11-01 17:18:36,507 __main__ 178 [DEBUG][objective] 1 fold completed in 11.583434343338013s 
+2019-11-01 17:18:36,526 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:18:37,211 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:18:37,211 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:18:37,211 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:18:46,842 __main__ 165 [INFO][objective] 2 fold RMSE:17057.693905136868 
+2019-11-01 17:18:46,892 __main__ 177 [INFO][objective] 2 fold completed in 10.38392186164856s 
+2019-11-01 17:18:46,892 __main__ 178 [DEBUG][objective] 2 fold completed in 10.38392186164856s 
+2019-11-01 17:18:46,911 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:18:47,576 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:18:47,576 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:18:47,576 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:18:57,873 __main__ 165 [INFO][objective] 3 fold RMSE:12984.705006632155 
+2019-11-01 17:18:57,923 __main__ 177 [INFO][objective] 3 fold completed in 11.030807971954346s 
+2019-11-01 17:18:57,923 __main__ 178 [DEBUG][objective] 3 fold completed in 11.030807971954346s 
+2019-11-01 17:18:57,943 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:18:58,608 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:18:58,609 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:18:58,609 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:19:06,681 __main__ 165 [INFO][objective] 4 fold RMSE:17651.39485263588 
+2019-11-01 17:19:06,724 __main__ 177 [INFO][objective] 4 fold completed in 8.80025339126587s 
+2019-11-01 17:19:06,725 __main__ 178 [DEBUG][objective] 4 fold completed in 8.80025339126587s 
+2019-11-01 17:19:06,726 __main__ 181 [INFO][objective] CV RMSE:16964.986289953442 
+2019-11-01 17:19:06,727 __main__ 182 [DEBUG][objective] CV RMSE mean:16964.986289953442 
+2019-11-01 17:19:09,602 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:19:10,353 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:19:10,353 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:19:10,353 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:19:31,530 __main__ 165 [INFO][objective] 1 fold RMSE:20439.94831007569 
+2019-11-01 17:19:31,574 __main__ 177 [INFO][objective] 1 fold completed in 22.011055946350098s 
+2019-11-01 17:19:31,574 __main__ 178 [DEBUG][objective] 1 fold completed in 22.011055946350098s 
+2019-11-01 17:19:31,593 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:19:32,341 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:19:32,341 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:19:32,341 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:19:52,771 __main__ 165 [INFO][objective] 2 fold RMSE:16751.57445369562 
+2019-11-01 17:19:52,816 __main__ 177 [INFO][objective] 2 fold completed in 21.240856170654297s 
+2019-11-01 17:19:52,816 __main__ 178 [DEBUG][objective] 2 fold completed in 21.240856170654297s 
+2019-11-01 17:19:52,835 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:19:53,602 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:19:53,602 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:19:53,602 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:20:04,885 __main__ 165 [INFO][objective] 3 fold RMSE:12597.087619789976 
+2019-11-01 17:20:04,933 __main__ 177 [INFO][objective] 3 fold completed in 12.116940021514893s 
+2019-11-01 17:20:04,934 __main__ 178 [DEBUG][objective] 3 fold completed in 12.116940021514893s 
+2019-11-01 17:20:04,954 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:20:05,654 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:20:05,654 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:20:05,654 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:20:19,541 __main__ 165 [INFO][objective] 4 fold RMSE:17050.31366623075 
+2019-11-01 17:20:19,590 __main__ 177 [INFO][objective] 4 fold completed in 14.655736207962036s 
+2019-11-01 17:20:19,590 __main__ 178 [DEBUG][objective] 4 fold completed in 14.655736207962036s 
+2019-11-01 17:20:19,592 __main__ 181 [INFO][objective] CV RMSE:16709.73101244801 
+2019-11-01 17:20:19,593 __main__ 182 [DEBUG][objective] CV RMSE mean:16709.73101244801 
+2019-11-01 17:20:22,611 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:20:23,340 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:20:23,340 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:20:23,340 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:20:32,648 __main__ 165 [INFO][objective] 1 fold RMSE:20327.357741350163 
+2019-11-01 17:20:32,697 __main__ 177 [INFO][objective] 1 fold completed in 10.12657880783081s 
+2019-11-01 17:20:32,697 __main__ 178 [DEBUG][objective] 1 fold completed in 10.12657880783081s 
+2019-11-01 17:20:32,715 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:20:33,538 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:20:33,538 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:20:33,538 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:20:43,770 __main__ 165 [INFO][objective] 2 fold RMSE:16810.1187644913 
+2019-11-01 17:20:43,831 __main__ 177 [INFO][objective] 2 fold completed in 11.133074045181274s 
+2019-11-01 17:20:43,831 __main__ 178 [DEBUG][objective] 2 fold completed in 11.133074045181274s 
+2019-11-01 17:20:43,855 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:20:44,623 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:20:44,623 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:20:44,623 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:20:54,499 __main__ 165 [INFO][objective] 3 fold RMSE:12980.144276103409 
+2019-11-01 17:20:54,550 __main__ 177 [INFO][objective] 3 fold completed in 10.718266248703003s 
+2019-11-01 17:20:54,550 __main__ 178 [DEBUG][objective] 3 fold completed in 10.718266248703003s 
+2019-11-01 17:20:54,570 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:20:55,243 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:20:55,243 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:20:55,243 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:21:05,812 __main__ 165 [INFO][objective] 4 fold RMSE:16867.282541836343 
+2019-11-01 17:21:05,864 __main__ 177 [INFO][objective] 4 fold completed in 11.313042879104614s 
+2019-11-01 17:21:05,864 __main__ 178 [DEBUG][objective] 4 fold completed in 11.313042879104614s 
+2019-11-01 17:21:05,866 __main__ 181 [INFO][objective] CV RMSE:16746.225830945303 
+2019-11-01 17:21:05,867 __main__ 182 [DEBUG][objective] CV RMSE mean:16746.225830945303 
+2019-11-01 17:21:08,717 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:21:09,407 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:21:09,407 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:21:09,407 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:21:23,317 __main__ 165 [INFO][objective] 1 fold RMSE:20876.21173926864 
+2019-11-01 17:21:23,369 __main__ 177 [INFO][objective] 1 fold completed in 14.691027879714966s 
+2019-11-01 17:21:23,369 __main__ 178 [DEBUG][objective] 1 fold completed in 14.691027879714966s 
+2019-11-01 17:21:23,391 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:21:24,059 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:21:24,059 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:21:24,059 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:21:33,557 __main__ 165 [INFO][objective] 2 fold RMSE:16749.080649840358 
+2019-11-01 17:21:33,607 __main__ 177 [INFO][objective] 2 fold completed in 10.23720669746399s 
+2019-11-01 17:21:33,607 __main__ 178 [DEBUG][objective] 2 fold completed in 10.23720669746399s 
+2019-11-01 17:21:33,627 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:21:34,306 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:21:34,307 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:21:34,307 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:21:43,566 __main__ 165 [INFO][objective] 3 fold RMSE:12832.989452288033 
+2019-11-01 17:21:43,617 __main__ 177 [INFO][objective] 3 fold completed in 10.008577108383179s 
+2019-11-01 17:21:43,617 __main__ 178 [DEBUG][objective] 3 fold completed in 10.008577108383179s 
+2019-11-01 17:21:43,637 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:21:44,313 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:21:44,313 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:21:44,314 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:21:53,635 __main__ 165 [INFO][objective] 4 fold RMSE:16822.31759747037 
+2019-11-01 17:21:53,686 __main__ 177 [INFO][objective] 4 fold completed in 10.06810712814331s 
+2019-11-01 17:21:53,686 __main__ 178 [DEBUG][objective] 4 fold completed in 10.06810712814331s 
+2019-11-01 17:21:53,688 __main__ 181 [INFO][objective] CV RMSE:16820.149859716854 
+2019-11-01 17:21:53,688 __main__ 182 [DEBUG][objective] CV RMSE mean:16820.149859716854 
+2019-11-01 17:21:56,540 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:21:57,241 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:21:57,241 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:21:57,241 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:22:07,664 __main__ 165 [INFO][objective] 1 fold RMSE:20166.151395408855 
+2019-11-01 17:22:07,716 __main__ 177 [INFO][objective] 1 fold completed in 11.215017080307007s 
+2019-11-01 17:22:07,716 __main__ 178 [DEBUG][objective] 1 fold completed in 11.215017080307007s 
+2019-11-01 17:22:07,736 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:22:08,436 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:22:08,437 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:22:08,437 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:22:18,293 __main__ 165 [INFO][objective] 2 fold RMSE:17057.693905136868 
+2019-11-01 17:22:18,345 __main__ 177 [INFO][objective] 2 fold completed in 10.627852201461792s 
+2019-11-01 17:22:18,345 __main__ 178 [DEBUG][objective] 2 fold completed in 10.627852201461792s 
+2019-11-01 17:22:18,365 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:22:19,035 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:22:19,035 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:22:19,035 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:22:29,675 __main__ 165 [INFO][objective] 3 fold RMSE:12984.705006632155 
+2019-11-01 17:22:29,727 __main__ 177 [INFO][objective] 3 fold completed in 11.381504774093628s 
+2019-11-01 17:22:29,727 __main__ 178 [DEBUG][objective] 3 fold completed in 11.381504774093628s 
+2019-11-01 17:22:29,744 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:22:30,399 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:22:30,400 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:22:30,400 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:22:37,871 __main__ 165 [INFO][objective] 4 fold RMSE:17651.39485263588 
+2019-11-01 17:22:37,921 __main__ 177 [INFO][objective] 4 fold completed in 8.19295883178711s 
+2019-11-01 17:22:37,921 __main__ 178 [DEBUG][objective] 4 fold completed in 8.19295883178711s 
+2019-11-01 17:22:37,923 __main__ 181 [INFO][objective] CV RMSE:16964.986289953442 
+2019-11-01 17:22:37,923 __main__ 182 [DEBUG][objective] CV RMSE mean:16964.986289953442 
+2019-11-01 17:22:40,696 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:22:41,373 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:22:41,373 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:22:41,373 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:22:49,844 __main__ 165 [INFO][objective] 1 fold RMSE:20327.357741350163 
+2019-11-01 17:22:49,895 __main__ 177 [INFO][objective] 1 fold completed in 9.236828804016113s 
+2019-11-01 17:22:49,895 __main__ 178 [DEBUG][objective] 1 fold completed in 9.236828804016113s 
+2019-11-01 17:22:49,915 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:22:50,614 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:22:50,614 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:22:50,614 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:22:56,982 __main__ 165 [INFO][objective] 2 fold RMSE:16810.1187644913 
+2019-11-01 17:22:57,035 __main__ 177 [INFO][objective] 2 fold completed in 7.1400840282440186s 
+2019-11-01 17:22:57,036 __main__ 178 [DEBUG][objective] 2 fold completed in 7.1400840282440186s 
+2019-11-01 17:22:57,057 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:22:57,740 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:22:57,740 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:22:57,740 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:23:07,991 __main__ 165 [INFO][objective] 3 fold RMSE:12980.144276103409 
+2019-11-01 17:23:08,042 __main__ 177 [INFO][objective] 3 fold completed in 11.006003141403198s 
+2019-11-01 17:23:08,042 __main__ 178 [DEBUG][objective] 3 fold completed in 11.006003141403198s 
+2019-11-01 17:23:08,062 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:23:08,762 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:23:08,763 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:23:08,763 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:23:22,891 __main__ 165 [INFO][objective] 4 fold RMSE:16867.282541836343 
+2019-11-01 17:23:22,941 __main__ 177 [INFO][objective] 4 fold completed in 14.898385047912598s 
+2019-11-01 17:23:22,942 __main__ 178 [DEBUG][objective] 4 fold completed in 14.898385047912598s 
+2019-11-01 17:23:22,944 __main__ 181 [INFO][objective] CV RMSE:16746.225830945303 
+2019-11-01 17:23:22,944 __main__ 182 [DEBUG][objective] CV RMSE mean:16746.225830945303 
+2019-11-01 17:23:26,200 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:23:26,929 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:23:26,930 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:23:26,930 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:23:42,618 __main__ 165 [INFO][objective] 1 fold RMSE:20652.635714409895 
+2019-11-01 17:23:42,669 __main__ 177 [INFO][objective] 1 fold completed in 16.51067090034485s 
+2019-11-01 17:23:42,669 __main__ 178 [DEBUG][objective] 1 fold completed in 16.51067090034485s 
+2019-11-01 17:23:42,690 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:23:43,521 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:23:43,521 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:23:43,522 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:23:55,032 __main__ 165 [INFO][objective] 2 fold RMSE:16800.624353929525 
+2019-11-01 17:23:55,078 __main__ 177 [INFO][objective] 2 fold completed in 12.408393144607544s 
+2019-11-01 17:23:55,078 __main__ 178 [DEBUG][objective] 2 fold completed in 12.408393144607544s 
+2019-11-01 17:23:55,095 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:23:55,949 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:23:55,950 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:23:55,950 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:24:08,730 __main__ 165 [INFO][objective] 3 fold RMSE:13037.227431972407 
+2019-11-01 17:24:08,775 __main__ 177 [INFO][objective] 3 fold completed in 13.696274757385254s 
+2019-11-01 17:24:08,775 __main__ 178 [DEBUG][objective] 3 fold completed in 13.696274757385254s 
+2019-11-01 17:24:08,793 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:24:09,468 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:24:09,468 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:24:09,468 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:24:20,182 __main__ 165 [INFO][objective] 4 fold RMSE:16968.704760863184 
+2019-11-01 17:24:20,228 __main__ 177 [INFO][objective] 4 fold completed in 11.45215392112732s 
+2019-11-01 17:24:20,228 __main__ 178 [DEBUG][objective] 4 fold completed in 11.45215392112732s 
+2019-11-01 17:24:20,230 __main__ 181 [INFO][objective] CV RMSE:16864.798065293755 
+2019-11-01 17:24:20,231 __main__ 182 [DEBUG][objective] CV RMSE mean:16864.798065293755 
+2019-11-01 17:24:23,186 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:24:23,898 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:24:23,898 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:24:23,898 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:24:34,858 __main__ 165 [INFO][objective] 1 fold RMSE:20327.357741350163 
+2019-11-01 17:24:34,910 __main__ 177 [INFO][objective] 1 fold completed in 11.763833999633789s 
+2019-11-01 17:24:34,910 __main__ 178 [DEBUG][objective] 1 fold completed in 11.763833999633789s 
+2019-11-01 17:24:34,931 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:24:35,651 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:24:35,651 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:24:35,651 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:24:45,533 __main__ 165 [INFO][objective] 2 fold RMSE:16810.1187644913 
+2019-11-01 17:24:45,584 __main__ 177 [INFO][objective] 2 fold completed in 10.67263388633728s 
+2019-11-01 17:24:45,584 __main__ 178 [DEBUG][objective] 2 fold completed in 10.67263388633728s 
+2019-11-01 17:24:45,605 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:24:46,356 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:24:46,356 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:24:46,357 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:25:07,035 __main__ 165 [INFO][objective] 3 fold RMSE:12980.144276103409 
+2019-11-01 17:25:07,089 __main__ 177 [INFO][objective] 3 fold completed in 21.50476908683777s 
+2019-11-01 17:25:07,089 __main__ 178 [DEBUG][objective] 3 fold completed in 21.50476908683777s 
+2019-11-01 17:25:07,109 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:25:07,828 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:25:07,828 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:25:07,828 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:25:18,785 __main__ 165 [INFO][objective] 4 fold RMSE:16867.282541836343 
+2019-11-01 17:25:18,839 __main__ 177 [INFO][objective] 4 fold completed in 11.749488830566406s 
+2019-11-01 17:25:18,840 __main__ 178 [DEBUG][objective] 4 fold completed in 11.749488830566406s 
+2019-11-01 17:25:18,842 __main__ 181 [INFO][objective] CV RMSE:16746.225830945303 
+2019-11-01 17:25:18,842 __main__ 182 [DEBUG][objective] CV RMSE mean:16746.225830945303 
+2019-11-01 17:25:21,673 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:25:22,448 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:25:22,448 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:25:22,448 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:26:06,803 __main__ 165 [INFO][objective] 1 fold RMSE:20677.102253854122 
+2019-11-01 17:26:06,854 __main__ 177 [INFO][objective] 1 fold completed in 45.21901082992554s 
+2019-11-01 17:26:06,854 __main__ 178 [DEBUG][objective] 1 fold completed in 45.21901082992554s 
+2019-11-01 17:26:06,875 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:26:07,616 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:26:07,616 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:26:07,616 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:26:15,046 __main__ 165 [INFO][objective] 2 fold RMSE:17498.895558595916 
+2019-11-01 17:26:15,098 __main__ 177 [INFO][objective] 2 fold completed in 8.242635011672974s 
+2019-11-01 17:26:15,098 __main__ 178 [DEBUG][objective] 2 fold completed in 8.242635011672974s 
+2019-11-01 17:26:15,118 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:26:15,807 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:26:15,807 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:26:15,807 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:26:25,523 __main__ 165 [INFO][objective] 3 fold RMSE:12889.287235197884 
+2019-11-01 17:26:25,578 __main__ 177 [INFO][objective] 3 fold completed in 10.479867219924927s 
+2019-11-01 17:26:25,579 __main__ 178 [DEBUG][objective] 3 fold completed in 10.479867219924927s 
+2019-11-01 17:26:25,601 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:26:26,571 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:26:26,571 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:26:26,571 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:26:42,435 __main__ 165 [INFO][objective] 4 fold RMSE:17215.481212305607 
+2019-11-01 17:26:42,483 __main__ 177 [INFO][objective] 4 fold completed in 16.90373921394348s 
+2019-11-01 17:26:42,483 __main__ 178 [DEBUG][objective] 4 fold completed in 16.90373921394348s 
+2019-11-01 17:26:42,485 __main__ 181 [INFO][objective] CV RMSE:17070.19156498838 
+2019-11-01 17:26:42,486 __main__ 182 [DEBUG][objective] CV RMSE mean:17070.19156498838 
+2019-11-01 17:26:45,339 __main__ 76 [INFO][objective] ** Training fold 1 ** 
+2019-11-01 17:26:46,036 __main__ 130 [INFO][objective] train shape(23595, 199) 
+2019-11-01 17:26:46,037 __main__ 131 [INFO][objective] val shape(7866, 199) 
+2019-11-01 17:26:46,037 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:26:52,849 __main__ 165 [INFO][objective] 1 fold RMSE:20735.67591178553 
+2019-11-01 17:26:52,895 __main__ 177 [INFO][objective] 1 fold completed in 7.596343994140625s 
+2019-11-01 17:26:52,895 __main__ 178 [DEBUG][objective] 1 fold completed in 7.596343994140625s 
+2019-11-01 17:26:52,913 __main__ 76 [INFO][objective] ** Training fold 2 ** 
+2019-11-01 17:26:53,572 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:26:53,572 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:26:53,572 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:27:00,785 __main__ 165 [INFO][objective] 2 fold RMSE:17212.686114345728 
+2019-11-01 17:27:00,834 __main__ 177 [INFO][objective] 2 fold completed in 7.937546968460083s 
+2019-11-01 17:27:00,834 __main__ 178 [DEBUG][objective] 2 fold completed in 7.937546968460083s 
+2019-11-01 17:27:00,852 __main__ 76 [INFO][objective] ** Training fold 3 ** 
+2019-11-01 17:27:01,506 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:27:01,506 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:27:01,506 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:27:09,526 __main__ 165 [INFO][objective] 3 fold RMSE:12868.571970492829 
+2019-11-01 17:27:09,573 __main__ 177 [INFO][objective] 3 fold completed in 8.738672733306885s 
+2019-11-01 17:27:09,573 __main__ 178 [DEBUG][objective] 3 fold completed in 8.738672733306885s 
+2019-11-01 17:27:09,590 __main__ 76 [INFO][objective] ** Training fold 4 ** 
+2019-11-01 17:27:10,247 __main__ 130 [INFO][objective] train shape(23596, 199) 
+2019-11-01 17:27:10,247 __main__ 131 [INFO][objective] val shape(7865, 199) 
+2019-11-01 17:27:10,247 __main__ 132 [INFO][objective] test shape(31262, 199) 
+2019-11-01 17:27:23,416 __main__ 165 [INFO][objective] 4 fold RMSE:17508.78901178605 
+2019-11-01 17:27:23,459 __main__ 177 [INFO][objective] 4 fold completed in 13.884671926498413s 
+2019-11-01 17:27:23,459 __main__ 178 [DEBUG][objective] 4 fold completed in 13.884671926498413s 
+2019-11-01 17:27:23,461 __main__ 181 [INFO][objective] CV RMSE:17081.430752102533 
+2019-11-01 17:27:23,461 __main__ 182 [DEBUG][objective] CV RMSE mean:17081.430752102533 

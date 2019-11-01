@@ -1,0 +1,66 @@
+2019-11-01 16:17:20,937 __main__ 24 [INFO][main] <class 'str'> 
+2019-11-01 16:17:42,679 __main__ 24 [INFO][main] <class 'int'> 
+2019-11-01 16:17:45,470 __main__ 49 [INFO][main] ** Training fold 1 ** 
+2019-11-01 16:17:46,145 __main__ 102 [INFO][main] train shape(23595, 199) 
+2019-11-01 16:17:46,145 __main__ 103 [INFO][main] val shape(7866, 199) 
+2019-11-01 16:17:46,145 __main__ 104 [INFO][main] test shape(31262, 199) 
+2019-11-01 16:17:46,350 __main__ 123 [INFO][main] Training START 
+2019-11-01 16:17:46,382 __main__ 125 [INFO][main] Training END 
+2019-11-01 16:17:46,389 __main__ 136 [INFO][main] 1 fold RMSE:30073.86314858984 
+2019-11-01 16:17:46,390 __main__ 138 [INFO][main] Test predict START 
+2019-11-01 16:19:29,138 __main__ 47 [INFO][main] ** Training fold 1 ** 
+2019-11-01 16:19:29,929 __main__ 101 [INFO][main] train shape(23595, 199) 
+2019-11-01 16:19:29,929 __main__ 102 [INFO][main] val shape(7866, 199) 
+2019-11-01 16:19:29,930 __main__ 103 [INFO][main] test shape(31262, 187) 
+2019-11-01 16:21:36,923 __main__ 30 [INFO][main] train shape(31461, 187) 
+2019-11-01 16:21:36,923 __main__ 31 [INFO][main] test shape(31262, 187) 
+2019-11-01 16:21:37,003 __main__ 51 [INFO][main] ** Training fold 1 ** 
+2019-11-01 16:21:37,757 __main__ 105 [INFO][main] train shape(23595, 199) 
+2019-11-01 16:21:37,757 __main__ 106 [INFO][main] val shape(7866, 199) 
+2019-11-01 16:21:37,758 __main__ 107 [INFO][main] test shape(31262, 187) 
+2019-11-01 16:23:55,872 __main__ 48 [INFO][main] ** Training fold 1 ** 
+2019-11-01 16:23:56,598 __main__ 102 [INFO][main] train shape(23595, 199) 
+2019-11-01 16:23:56,598 __main__ 103 [INFO][main] val shape(7866, 199) 
+2019-11-01 16:23:56,598 __main__ 104 [INFO][main] test shape(31262, 199) 
+2019-11-01 16:23:56,809 __main__ 123 [INFO][main] Training START 
+2019-11-01 16:23:56,842 __main__ 125 [INFO][main] Training END 
+2019-11-01 16:23:56,853 __main__ 136 [INFO][main] 1 fold RMSE:30073.86314858984 
+2019-11-01 16:23:56,854 __main__ 138 [INFO][main] Test predict START 
+2019-11-01 16:23:56,860 __main__ 141 [INFO][main] Test predict END 
+2019-11-01 16:23:56,894 __main__ 148 [INFO][main] 1 fold completed in 1.060096025466919s 
+2019-11-01 16:23:56,894 __main__ 149 [DEBUG][main] 1 fold completed in 1.060096025466919s 
+2019-11-01 16:23:56,902 __main__ 48 [INFO][main] ** Training fold 2 ** 
+2019-11-01 16:23:57,565 __main__ 102 [INFO][main] train shape(23596, 199) 
+2019-11-01 16:23:57,565 __main__ 103 [INFO][main] val shape(7865, 199) 
+2019-11-01 16:23:57,565 __main__ 104 [INFO][main] test shape(31262, 199) 
+2019-11-01 16:23:57,789 __main__ 123 [INFO][main] Training START 
+2019-11-01 16:23:57,819 __main__ 125 [INFO][main] Training END 
+2019-11-01 16:23:57,830 __main__ 136 [INFO][main] 2 fold RMSE:26522.660314977762 
+2019-11-01 16:23:57,831 __main__ 138 [INFO][main] Test predict START 
+2019-11-01 16:23:57,837 __main__ 141 [INFO][main] Test predict END 
+2019-11-01 16:23:57,866 __main__ 148 [INFO][main] 2 fold completed in 0.9718577861785889s 
+2019-11-01 16:23:57,867 __main__ 149 [DEBUG][main] 2 fold completed in 0.9718577861785889s 
+2019-11-01 16:23:57,875 __main__ 48 [INFO][main] ** Training fold 3 ** 
+2019-11-01 16:23:58,480 __main__ 102 [INFO][main] train shape(23596, 199) 
+2019-11-01 16:23:58,480 __main__ 103 [INFO][main] val shape(7865, 199) 
+2019-11-01 16:23:58,480 __main__ 104 [INFO][main] test shape(31262, 199) 
+2019-11-01 16:23:58,678 __main__ 123 [INFO][main] Training START 
+2019-11-01 16:23:58,711 __main__ 125 [INFO][main] Training END 
+2019-11-01 16:23:58,725 __main__ 136 [INFO][main] 3 fold RMSE:24580.69820860544 
+2019-11-01 16:23:58,726 __main__ 138 [INFO][main] Test predict START 
+2019-11-01 16:23:58,731 __main__ 141 [INFO][main] Test predict END 
+2019-11-01 16:23:58,765 __main__ 148 [INFO][main] 3 fold completed in 0.8980462551116943s 
+2019-11-01 16:23:58,765 __main__ 149 [DEBUG][main] 3 fold completed in 0.8980462551116943s 
+2019-11-01 16:23:58,774 __main__ 48 [INFO][main] ** Training fold 4 ** 
+2019-11-01 16:23:59,381 __main__ 102 [INFO][main] train shape(23596, 199) 
+2019-11-01 16:23:59,381 __main__ 103 [INFO][main] val shape(7865, 199) 
+2019-11-01 16:23:59,381 __main__ 104 [INFO][main] test shape(31262, 199) 
+2019-11-01 16:23:59,566 __main__ 123 [INFO][main] Training START 
+2019-11-01 16:23:59,594 __main__ 125 [INFO][main] Training END 
+2019-11-01 16:23:59,605 __main__ 136 [INFO][main] 4 fold RMSE:31512.768381428094 
+2019-11-01 16:23:59,605 __main__ 138 [INFO][main] Test predict START 
+2019-11-01 16:23:59,610 __main__ 141 [INFO][main] Test predict END 
+2019-11-01 16:23:59,638 __main__ 148 [INFO][main] 4 fold completed in 0.8725249767303467s 
+2019-11-01 16:23:59,639 __main__ 149 [DEBUG][main] 4 fold completed in 0.8725249767303467s 
+2019-11-01 16:23:59,644 __main__ 152 [INFO][main] CV RMSE:28172.49751340028 
+2019-11-01 16:23:59,645 __main__ 153 [DEBUG][main] CV RMSE mean:28172.49751340028 
