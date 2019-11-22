@@ -1,5 +1,7 @@
 # kaggle
-kaggleとあるが、主に機械学習関連での知見をまとめたものになった。  
+kaggleとあるが、主に機械学習関連での知見をまとめたものになった。    
+Python全般のことはここがわかりやすい  
+http://diveintopython3-ja.rdy.jp/index.html
 
 ## 機械学習で役立つTips
 ### LightGBMと他のブースティングのまとめ（PyDataでのスライド）  
