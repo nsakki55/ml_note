@@ -22,6 +22,7 @@ def main():
     y_pred = sum(tree.predict(X_new) for tree in (tree_reg1, tree_reg2, tree_reg3))
 
 
+
     plt.subplot(321)
     plot_predictions([tree_reg1], X, y, axes=[-0.5, 0.5, -0.1, 0.8], label="$h_1(x_1)$", style="g-", data_label="Training set")
     plt.ylabel("$y$", fontsize=16, rotation=0)
