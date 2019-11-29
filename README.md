@@ -1,7 +1,9 @@
 # kaggle
 kaggleとあるが、主に機械学習関連での知見をまとめたものになった。    
 Python全般のことはここがわかりやすい  
-http://diveintopython3-ja.rdy.jp/index.html
+http://diveintopython3-ja.rdy.jp/index.html  
+GoodFello本、PRMLの解説スライド  
+https://deeplearning.jp/seminar/#1515565927378-9a11fdc4-798a
 
 ## 機械学習で役立つTips
 ### LightGBMと他のブースティングのまとめ（PyDataでのスライド）  
