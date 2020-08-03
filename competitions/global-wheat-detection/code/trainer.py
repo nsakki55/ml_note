@@ -185,7 +185,7 @@ class TrainGlobalConfig:
                  batch_size = 4,
                  n_epochs = 40, 
                  lr = 0.0002, 
-                 folder = 'effdet5-cutmix-mixup-CV', 
+                 folder = 'effdet6-cutout-cutmix-mixup-5CV', 
                  verbose = True, 
                  verbose_step = 1,
                  step_scheduler = False,
@@ -234,9 +234,9 @@ from effdet import get_efficientdet_config, EfficientDet, DetBenchTrain
 from effdet.efficientdet import HeadNet
 
 def get_net():
-    config = get_efficientdet_config('tf_efficientdet_d5')
+    config = get_efficientdet_config('tf_efficientdet_d6')
     net = EfficientDet(config, pretrained_backbone=False)
-    checkpoint = torch.load('../input/efficientdet/efficientdet_d5-ef44aea8.pth')
+    checkpoint = torch.load('../input/efficientdet/efficientdet_d6-51cb0132.pth')
     net.load_state_dict(checkpoint)
     config.num_classes = 1
     config.image_size = 512

@@ -45,7 +45,7 @@ df_folds = data_process.get_folds(marking)
 for fold_num in range(5):
     logger.info(f"{fold_num} fold start")
     # train config
-    train_global_config = trainer.TrainGlobalConfig(n_epochs=40, batch_size=3, folder = f'effdet5-cutmix-mixup-CV{fold_num}')
+    train_global_config = trainer.TrainGlobalConfig(n_epochs=60, batch_size=3, folder = f'effdet5-cutout-cutmix-mixup-{fold_num}CV-improve')
     
     # dataset
     dataset_dict = data_process.get_dataset(fold_num, df_folds, marking)
