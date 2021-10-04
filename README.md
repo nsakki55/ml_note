@@ -1,4 +1,4 @@
-# kaggle
+# ML note
 kaggleとあるが、主に機械学習関連での知見をまとめたものになった。    
 Python全般のことはここがわかりやすい  
 http://diveintopython3-ja.rdy.jp/index.html  
